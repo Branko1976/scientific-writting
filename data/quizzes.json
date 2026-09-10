@@ -1,0 +1,276 @@
+{
+ "1": [
+  {
+   "id": "q13",
+   "question": "Which of these is NOT a core value of scientific writing?",
+   "options": [
+    "Clarity \u2014 one idea communicated without confusion",
+    "Reproducibility \u2014 enough detail for others to repeat the work",
+    "Suspense \u2014 withholding the main finding until the end",
+    "Objectivity \u2014 separating observation from interpretation"
+   ],
+   "correctIndex": 2,
+   "explanation": "Unlike a novel or news feature, a scientific paper tells the reader the main finding up front \u2014 in the abstract and often the introduction. Readers should never have to hunt for your conclusion."
+  },
+  {
+   "id": "q23",
+   "question": "A student wants to present preliminary pilot data at a 10-minute conference slot. Which format fits best?",
+   "options": [
+    "A full original article",
+    "A conference abstract",
+    "A thesis chapter",
+    "A grant proposal"
+   ],
+   "correctIndex": 1,
+   "explanation": "Conference abstracts are short, quickly reviewed, and designed exactly for preliminary or in-progress work \u2014 the format matches the stage of the research, not just its topic."
+  },
+  {
+   "id": "q39",
+   "question": "Where should a study's limitations be discussed?",
+   "options": [
+    "In the Methods, as a disclaimer",
+    "In the Results, after the main findings",
+    "In the Discussion, before the conclusion",
+    "In the Abstract only"
+   ],
+   "correctIndex": 2,
+   "explanation": "Limitations are an interpretive judgment about how much weight your findings should carry \u2014 that's Discussion work. Readers expect them just before your final conclusions."
+  },
+  {
+   "id": "q50",
+   "question": "An abstract should generally be understandable:",
+   "options": [
+    "Only by co-authors who know the project",
+    "Only after reading the full paper",
+    "On its own, without reading the rest of the paper",
+    "Only by statisticians"
+   ],
+   "correctIndex": 2,
+   "explanation": "Databases, search engines, and busy readers often show only the abstract. If it depends on the full text to make sense, it has failed its main job."
+  }
+ ],
+ "2": [
+  {
+   "id": "q69",
+   "question": "A sentence containing three linked clauses joined by 'and' is usually a sign that you should:",
+   "options": [
+    "Add more clauses for completeness",
+    "Consider splitting it into separate sentences",
+    "Convert it to passive voice",
+    "Move it to the abstract"
+   ],
+   "correctIndex": 1,
+   "explanation": "Multiple 'and'-joined clauses often signal multiple ideas competing for the same sentence. Splitting lets each claim stand on its own and be verified independently."
+  },
+  {
+   "id": "q80",
+   "question": "In a Methods section, passive voice is most defensible when:",
+   "options": [
+    "You want to sound more formal",
+    "The actor performing the action is obvious or unimportant",
+    "You are unsure who did the work",
+    "You need to lengthen the section"
+   ],
+   "correctIndex": 1,
+   "explanation": "Passive voice earns its place when naming the actor would add nothing useful \u2014 e.g., routine lab procedures. It should never be used simply to sound more 'scientific.'"
+  },
+  {
+   "id": "q83",
+   "question": "A single small pilot study found a promising trend that didn't reach statistical significance. Which claim best matches the evidence?",
+   "options": [
+    "\u201cThis treatment cures the condition.\u201d",
+    "\u201cThis treatment may offer modest benefit, though further study is needed.\u201d",
+    "\u201cThis treatment has no effect whatsoever.\u201d",
+    "\u201cThis treatment possibly could perhaps help somewhat.\u201d"
+   ],
+   "correctIndex": 1,
+   "explanation": "It hedges exactly once, in proportion to weak-but-promising evidence \u2014 neither overclaiming a cure nor stacking redundant hedges."
+  },
+  {
+   "id": "q91",
+   "question": "Which revision best fixes \u201ca total of 15 subjects were recruited for participation in the study\u201d?",
+   "options": [
+    "\u201cA total of 15 subjects participated.\u201d",
+    "\u201c15 subjects were recruited.\u201d",
+    "\u201cSubjects, a total of 15, were recruited for the study.\u201d",
+    "No change needed"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u201cA total of\u201d and \u201cfor participation in the study\u201d add no new information \u2014 the number and the verb \u201crecruited\u201d already say everything needed."
+  },
+  {
+   "id": "q101",
+   "question": "A paragraph with no topic sentence and several unrelated facts is best fixed by:",
+   "options": [
+    "Adding a strong final sentence to summarize",
+    "Adding a topic sentence and/or splitting it into focused paragraphs",
+    "Converting every sentence to passive voice",
+    "Making all sentences the same length"
+   ],
+   "correctIndex": 1,
+   "explanation": "A missing topic sentence and unrelated facts both point to the same root cause \u2014 the paragraph hasn't committed to one purpose yet. Give it one, or divide it into paragraphs that each can."
+  }
+ ],
+ "3": [
+  {
+   "id": "q120",
+   "question": "An introduction that opens with 'Since ancient times, disease has affected humanity...' is weak mainly because it:",
+   "options": [
+    "Is grammatically incorrect",
+    "Is too broad to establish specific, concrete stakes",
+    "Uses passive voice",
+    "Is too short"
+   ],
+   "correctIndex": 1,
+   "explanation": "Sweeping historical openers delay the real content. Readers need concrete, current stakes within the first sentence or two \u2014 not a broad narrative windup."
+  },
+  {
+   "id": "q130",
+   "question": "The primary goal of the literature review section is to:",
+   "options": [
+    "List every paper you read during your research",
+    "Synthesize prior findings to set up your specific gap",
+    "Prove you read more papers than other researchers",
+    "Summarize your own results in advance"
+   ],
+   "correctIndex": 1,
+   "explanation": "A literature review is an argument in miniature: it builds, source by source, toward the specific gap your study will address \u2014 not a record of your reading list."
+  },
+  {
+   "id": "q133",
+   "question": "You want to cite a specific statistic (e.g., a prevalence rate). What should you do?",
+   "options": [
+    "Cite whichever source mentions the number, even a textbook",
+    "Trace the number back to the primary study and cite that",
+    "Avoid using specific numbers in the introduction",
+    "Cite a review article that references the number"
+   ],
+   "correctIndex": 1,
+   "explanation": "Numbers can drift or be misquoted as they pass through secondary sources. Always trace a specific statistic back to where it was originally measured and reported."
+  },
+  {
+   "id": "q145",
+   "question": "A well-written research aim should:",
+   "options": [
+    "Introduce a new topic not covered earlier in the introduction",
+    "Map directly onto the gap identified just before it",
+    "Be broad enough to allow multiple different studies",
+    "Be saved for the Discussion section instead"
+   ],
+   "correctIndex": 1,
+   "explanation": "The funnel only works if the narrowest point (the aim) directly answers the gap that came right before it. A mismatch here is one of the most common introduction weaknesses."
+  }
+ ],
+ "4": [
+  {
+   "id": "q169",
+   "question": "Which phrase is most likely to signal that a sentence has drifted from Results into Discussion?",
+   "options": [
+    "\u201cMean age was 42.3 years (SD 8.1)\u201d",
+    "\u201cThis suggests that older patients respond better\u201d",
+    "\u201c15 of 60 participants withdrew before follow-up\u201d",
+    "\u201cFigure 2 shows the distribution of scores\u201d"
+   ],
+   "correctIndex": 1,
+   "explanation": "\u201cSuggests\u201d signals an inference about meaning or cause \u2014 that belongs in the Discussion. The other options simply report observed facts."
+  },
+  {
+   "id": "q181",
+   "question": "The same dataset should generally be presented:",
+   "options": [
+    "In both a figure and a table, for redundancy",
+    "In whichever single format best serves the reader's need",
+    "Only in a table, never a figure",
+    "Only as raw numbers in the text"
+   ],
+   "correctIndex": 1,
+   "explanation": "Duplicating data across a figure and a table wastes space and reader attention. Choose the format \u2014 visual pattern or precise number lookup \u2014 that matches what the reader needs from that data."
+  },
+  {
+   "id": "q194",
+   "question": "Which of these is the strongest limitation statement?",
+   "options": [
+    "\u201cThere may be some limitations to this work.\u201d",
+    "\u201cOur study, like all studies, is not perfect.\u201d",
+    "\u201cBecause participants self-reported diet, recall bias may have affected accuracy.\u201d",
+    "\u201cLimitations are discussed elsewhere.\u201d"
+   ],
+   "correctIndex": 2,
+   "explanation": "It names the specific source of bias (self-report) and its likely effect (recall bias, accuracy) \u2014 precise enough that a reader can judge how much it matters."
+  },
+  {
+   "id": "q197",
+   "question": "A strong closing to a Discussion section should generally:",
+   "options": [
+    "Introduce new results not mentioned earlier",
+    "Repeat the abstract word for word",
+    "State the finding's significance and plausible next steps",
+    "End abruptly after the limitations"
+   ],
+   "correctIndex": 2,
+   "explanation": "Readers should leave the Discussion understanding not just what you found and its limits, but why it matters and where the field might go next."
+  },
+  {
+   "id": "q205",
+   "question": "Reusing a paragraph you wrote in a previous paper, without citation, in a new manuscript is:",
+   "options": [
+    "Always acceptable since you wrote it",
+    "A form of self-plagiarism that should be avoided or properly disclosed",
+    "Only a problem if someone else notices",
+    "Required practice for consistency"
+   ],
+   "correctIndex": 1,
+   "explanation": "Journals consider undisclosed text reuse a form of self-plagiarism, even from your own prior work \u2014 publishers hold copyright, and readers assume new text is newly written."
+  }
+ ],
+ "5": [
+  {
+   "id": "q221",
+   "question": "Which editing pass should generally happen first?",
+   "options": [
+    "Sentence-level grammar and word choice",
+    "Structure and overall logical order",
+    "Formatting the reference list",
+    "Checking figure resolution"
+   ],
+   "correctIndex": 1,
+   "explanation": "Polishing sentences in a section that later gets deleted or moved wastes effort. Fix structure first, then paragraphs, then sentences \u2014 working top-down saves time."
+  },
+  {
+   "id": "q231",
+   "question": "The most useful peer feedback tends to be:",
+   "options": [
+    "General praise, to keep morale up",
+    "Specific, tied to a location in the text, and actionable",
+    "A full rewrite of the author's sentences",
+    "Focused only on grammar and spelling"
+   ],
+   "correctIndex": 1,
+   "explanation": "Feedback that names a specific location and a specific issue lets the author actually act on it \u2014 vague praise or vague criticism both leave the writer guessing."
+  },
+  {
+   "id": "q243",
+   "question": "When you disagree with a reviewer's comment, the best approach is to:",
+   "options": [
+    "Ignore the comment in your response",
+    "State your disagreement with clear reasoning and remain respectful",
+    "Argue that the reviewer is unqualified",
+    "Withdraw the manuscript"
+   ],
+   "correctIndex": 1,
+   "explanation": "Editors expect authors to sometimes disagree with reviewers \u2014 what matters is that the disagreement is reasoned, evidence-based, and professionally worded."
+  },
+  {
+   "id": "q255",
+   "question": "A plain-language summary should generally:",
+   "options": [
+    "Include every statistic from the abstract",
+    "Preserve the key finding while removing jargon and statistics",
+    "Be written before the technical abstract",
+    "Replace the need for a full abstract"
+   ],
+   "correctIndex": 1,
+   "explanation": "The goal is precise translation, not simplification that loses meaning \u2014 keep the true finding and its real-world implication, and let the technical detail go."
+  }
+ ]
+}

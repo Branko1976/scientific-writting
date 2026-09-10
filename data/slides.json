@@ -1,0 +1,6625 @@
+[
+ {
+  "n": 1,
+  "classId": 1,
+  "kind": "title",
+  "eyebrow": "Branko Aleksic",
+  "title": "Scientific Writing: Principles and Practice",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "HONOURS STUDENT PROGRAM"
+   },
+   {
+    "role": "paragraph",
+    "text": "Five classes, 60 minutes each \u2014 from IMRAD structure to peer review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Dept. of International Medical Education \u00b7 Office of International Affairs \u00b7 Nagoya University"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "COURSE OVERVIEW",
+  "title": "Five Classes at a Glance",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Foundations of Scientific Writing"
+   },
+   {
+    "role": "paragraph",
+    "text": "Purpose, document types, IMRAD structure"
+   },
+   {
+    "role": "subheading",
+    "text": "Writing Clear and Accurate Sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Sentence structure, voice, redundancy"
+   },
+   {
+    "role": "subheading",
+    "text": "Building the Introduction and Literature Review"
+   },
+   {
+    "role": "paragraph",
+    "text": "The funnel, synthesis, gaps, hypotheses"
+   },
+   {
+    "role": "subheading",
+    "text": "Presenting Results and Discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Objective reporting, figures, citation"
+   },
+   {
+    "role": "subheading",
+    "text": "Editing, Peer Review, and Beyond"
+   },
+   {
+    "role": "paragraph",
+    "text": "Self-editing, feedback, science communication"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "classId": 1,
+  "kind": "class-cover",
+  "eyebrow": null,
+  "title": "Foundations of Scientific Writing",
+  "partLabel": null,
+  "classLabel": "CLASS 1 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "What scientific writing is for, and how a paper is built"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "classId": 1,
+  "kind": "class-cover",
+  "eyebrow": "Branko Aleksic \u00b7 Dept. of International Medical Education",
+  "title": "Foundations of Scientific Writing",
+  "partLabel": null,
+  "classLabel": "CLASS 1 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "What scientific writing is for, and how a paper is built"
+   },
+   {
+    "role": "paragraph",
+    "text": "Scientific Writing: Principles and Practice \u00b7 Honours Student Program"
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TODAY'S ROADMAP",
+  "title": "What We'll Cover",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Class 1 \u2014 Foundations: purpose, document types, IMRAD structure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 2 \u2014 Writing clear and accurate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 3 \u2014 Building the introduction and literature review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 4 \u2014 Presenting results and discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 5 \u2014 Editing, peer review, and science communication"
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TODAY'S FOCUS",
+  "title": "By the End of Today, You Can:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Explain why scientific writing has its own rules \u2014 and why those rules exist",
+     "Name the major types of scientific documents and what each is for",
+     "Describe the IMRAD structure and what belongs in each section",
+     "Recognize the parts and purpose of a title and an abstract"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "classId": 1,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Why Scientific Writing Matters",
+  "partLabel": "PART 1 OF 5",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 8,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "ORIENTATION",
+  "title": "What Is Scientific Writing, Really?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A way of reporting research so that other people can understand it, judge it, and build on it",
+     "It is not just 'formal English' \u2014 it follows a logic that mirrors the scientific method itself",
+     "Every choice \u2014 structure, tense, word order \u2014 exists to help a reader evaluate your evidence quickly and fairly",
+     "As an Honours student, this is the skill that turns your research into something the field can actually use"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "WHO IS READING?",
+  "title": "Scientific Writing Has Many Audiences",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Peer Researchers"
+   },
+   {
+    "role": "paragraph",
+    "text": "Need enough detail to replicate your method and trust your results"
+   },
+   {
+    "role": "subheading",
+    "text": "Reviewers & Editors"
+   },
+   {
+    "role": "paragraph",
+    "text": "Judge rigor, novelty, and whether the claims match the evidence"
+   },
+   {
+    "role": "subheading",
+    "text": "Clinicians"
+   },
+   {
+    "role": "paragraph",
+    "text": "Want to know: does this change what I do for my patients?"
+   },
+   {
+    "role": "subheading",
+    "text": "The Public & Policy Makers"
+   },
+   {
+    "role": "paragraph",
+    "text": "Rely on plain-language summaries to make real-world decisions"
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "Think of a paper or report you found hard to read. What exactly made it difficult?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds, then we'll share"
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Common Reasons Writing Fails",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Unnecessary jargon or undefined abbreviations",
+     "Sentences carrying two or three ideas at once",
+     "Results and interpretation mixed together",
+     "No clear thread from the question to the conclusion",
+     "The structure doesn't match what the reader expects"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "A DIFFERENT KIND OF WRITING",
+  "title": "Scientific vs. General Writing",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Everyday / Creative Writing"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Can build suspense \u2014 save the punchline",
+     "Voice and style are personal and varied",
+     "Structure is flexible, even surprising",
+     "Ambiguity can be a feature"
+    ]
+   },
+   {
+    "role": "subheading",
+    "text": "Scientific Writing"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "States the main finding early and directly",
+     "Voice is precise, consistent, and impersonal",
+     "Structure is conventional and predictable (IMRAD)",
+     "Ambiguity is a defect to be removed"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Which of these is NOT a core value of scientific writing?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Clarity \u2014 one idea communicated without confusion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Reproducibility \u2014 enough detail for others to repeat the work"
+   },
+   {
+    "role": "paragraph",
+    "text": "Suspense \u2014 withholding the main finding until the end"
+   },
+   {
+    "role": "paragraph",
+    "text": "Objectivity \u2014 separating observation from interpretation"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Which of these is NOT a core value of scientific writing?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Clarity \u2014 one idea communicated without confusion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Reproducibility \u2014 enough detail for others to repeat the work"
+   },
+   {
+    "role": "paragraph",
+    "text": "Suspense \u2014 withholding the main finding until the end"
+   },
+   {
+    "role": "paragraph",
+    "text": "Objectivity \u2014 separating observation from interpretation"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: C. Unlike a novel or news feature, a scientific paper tells the reader the main finding up front \u2014 in the abstract and often the introduction. Readers should never have to hunt for your conclusion."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "WHO GETS CREDIT",
+  "title": "Authorship Is a Responsibility, Not a Reward",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Being listed as an author means you take public responsibility for the work's accuracy",
+     "Common international criteria (ICMJE) require: substantial contribution, drafting or revising the manuscript, final approval, and accountability",
+     "Contributing data collection alone, without intellectual input, is usually acknowledged \u2014 not authored",
+     "Discuss authorship early with your supervisor, not after the paper is drafted"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "Why might it matter \u2014 ethically and practically \u2014 that authorship carries real accountability?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Accountability Protects the Record",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "If an error or misconduct is later found, authors are the ones held responsible",
+     "This discourages 'gift authorship' \u2014 adding someone who didn't meaningfully contribute",
+     "It also protects genuine contributors: their name is tied to work they can vouch for"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "classId": 1,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Types of Scientific Documents",
+  "partLabel": "PART 2 OF 5",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 19,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "THE LANDSCAPE",
+  "title": "Six Documents You'll Encounter",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Original Article"
+   },
+   {
+    "role": "paragraph",
+    "text": "Full report of a new study \u2014 the core format this course builds toward"
+   },
+   {
+    "role": "subheading",
+    "text": "Conference Abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Short summary submitted for presentation at a meeting"
+   },
+   {
+    "role": "subheading",
+    "text": "Review Article"
+   },
+   {
+    "role": "paragraph",
+    "text": "Synthesizes existing literature on a defined question"
+   },
+   {
+    "role": "subheading",
+    "text": "Thesis / Dissertation"
+   },
+   {
+    "role": "paragraph",
+    "text": "Extended, structured account of a full research project"
+   },
+   {
+    "role": "subheading",
+    "text": "Case Report"
+   },
+   {
+    "role": "paragraph",
+    "text": "Detailed account of a single, instructive clinical case"
+   },
+   {
+    "role": "subheading",
+    "text": "Grant Proposal"
+   },
+   {
+    "role": "paragraph",
+    "text": "Persuasive plan for research not yet conducted"
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "COMPARING FORMATS",
+  "title": "Purpose, Length, and Audience",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Document",
+     "Typical Length",
+     "Primary Purpose"
+    ],
+    "rows": [
+     [
+      "Original article",
+      "3,000\u20135,000 words",
+      "Report new data and its interpretation"
+     ],
+     [
+      "Review article",
+      "4,000\u20138,000 words",
+      "Synthesize and critically evaluate prior work"
+     ],
+     [
+      "Case report",
+      "1,000\u20131,500 words",
+      "Document an instructive or novel clinical case"
+     ],
+     [
+      "Conference abstract",
+      "250\u2013400 words",
+      "Summarize work for presentation / networking"
+     ],
+     [
+      "Thesis",
+      "10,000+ words",
+      "Demonstrate independent, extended research"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "SHOW OF HANDS",
+  "title": "Which of these have you already written \u2014 even in a rough or informal form?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Raise your hand for each one as it's named"
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "WHERE WE'RE HEADED",
+  "title": "This Course's Core Template: IMRAD",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Every format in the last table is a variation on the same underlying logic",
+     "The original research article is the strictest, most complete expression of that logic \u2014 so it's the best format to learn the skill from",
+     "Master IMRAD, and reviews, case reports, and theses become much easier to structure",
+     "From here on, we'll build your understanding of IMRAD section by section"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A student wants to present preliminary pilot data at a 10-minute conference slot. Which format fits best?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "A full original article"
+   },
+   {
+    "role": "paragraph",
+    "text": "A conference abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "A thesis chapter"
+   },
+   {
+    "role": "paragraph",
+    "text": "A grant proposal"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A student wants to present preliminary pilot data at a 10-minute conference slot. Which format fits best?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "A full original article"
+   },
+   {
+    "role": "paragraph",
+    "text": "A conference abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "A thesis chapter"
+   },
+   {
+    "role": "paragraph",
+    "text": "A grant proposal"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Conference abstracts are short, quickly reviewed, and designed exactly for preliminary or in-progress work \u2014 the format matches the stage of the research, not just its topic."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "BEYOND IMRAD",
+  "title": "Other Parts of a Complete Manuscript",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Title Page"
+   },
+   {
+    "role": "paragraph",
+    "text": "Title, author list, affiliations, and corresponding author contact"
+   },
+   {
+    "role": "subheading",
+    "text": "References"
+   },
+   {
+    "role": "paragraph",
+    "text": "Full citation list, formatted to the journal's required style"
+   },
+   {
+    "role": "subheading",
+    "text": "Acknowledgments"
+   },
+   {
+    "role": "paragraph",
+    "text": "Credits contributors who don't meet full authorship criteria"
+   },
+   {
+    "role": "subheading",
+    "text": "Supplementary Material"
+   },
+   {
+    "role": "paragraph",
+    "text": "Extra data, methods detail, or figures that support the main text"
+   },
+   {
+    "role": "subheading",
+    "text": "Funding Statement"
+   },
+   {
+    "role": "paragraph",
+    "text": "Discloses who paid for the research and their role, if any"
+   },
+   {
+    "role": "subheading",
+    "text": "Conflict of Interest"
+   },
+   {
+    "role": "paragraph",
+    "text": "Discloses any financial or personal interests that could bias the work"
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "Why do you think journals require authors to disclose conflicts of interest and funding sources?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Transparency Builds Trust",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Readers can judge whether a funding source might have shaped the study design or interpretation",
+     "It doesn't mean funded research is untrustworthy \u2014 it means readers get to decide for themselves",
+     "Undisclosed conflicts, if discovered later, can seriously damage a researcher's credibility"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "classId": 1,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "The IMRAD Structure",
+  "partLabel": "PART 3 OF 5",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 29,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "THE BACKBONE",
+  "title": "IMRAD: One Structure, Four Questions",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "I \u2014 Introduction",
+     "Why did you do this study?",
+     "M \u2014 Methods",
+     "What did you do, exactly?",
+     "R \u2014 Results",
+     "What did you find?",
+     "D \u2014 Discussion",
+     "What does it mean?"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "IMRAD mirrors the scientific method itself: question \u2192 procedure \u2192 observation \u2192 interpretation."
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "THE FULL SKELETON",
+  "title": "How a Paper Is Assembled",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Title"
+   },
+   {
+    "role": "paragraph",
+    "text": "One sentence, the whole paper's identity"
+   },
+   {
+    "role": "subheading",
+    "text": "Abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "The paper in miniature \u2014 200\u2013300 words"
+   },
+   {
+    "role": "subheading",
+    "text": "Introduction"
+   },
+   {
+    "role": "paragraph",
+    "text": "Funnels from broad topic to your specific question"
+   },
+   {
+    "role": "subheading",
+    "text": "Methods"
+   },
+   {
+    "role": "paragraph",
+    "text": "Recipe detailed enough to repeat"
+   },
+   {
+    "role": "subheading",
+    "text": "Results"
+   },
+   {
+    "role": "paragraph",
+    "text": "What was observed \u2014 no interpretation"
+   },
+   {
+    "role": "subheading",
+    "text": "Discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Meaning, limits, and implications"
+   }
+  ]
+ },
+ {
+  "n": 31,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "SECTION BY SECTION",
+  "title": "What Each Section Is Responsible For",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Introduction"
+   },
+   {
+    "role": "paragraph",
+    "text": "Establishes the gap in knowledge and states your specific aim or hypothesis"
+   },
+   {
+    "role": "subheading",
+    "text": "Results"
+   },
+   {
+    "role": "paragraph",
+    "text": "Reports findings objectively, ordered logically, supported by figures/tables"
+   },
+   {
+    "role": "subheading",
+    "text": "Methods"
+   },
+   {
+    "role": "paragraph",
+    "text": "Describes participants, materials, and procedures in past tense, step by step"
+   },
+   {
+    "role": "subheading",
+    "text": "Discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Interprets findings, compares to prior work, states limits and significance"
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "INTRODUCTION",
+  "title": "The Introduction: A Funnel",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Opens with the broad clinical or scientific context \u2014 why should anyone care?",
+     "Narrows to what is already known, citing key prior work",
+     "Identifies the specific gap: what remains unknown or unresolved",
+     "Ends with your precise aim, question, or hypothesis \u2014 the narrowest point of the funnel"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "We'll build a full introduction, step by step, in Class 3."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "METHODS",
+  "title": "The Methods: A Recipe",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Written so a competent researcher elsewhere could repeat your study exactly",
+     "Always past tense \u2014 you are reporting what you did, not instructing the reader",
+     "Includes participants/materials, procedures, measurements, and statistical analysis",
+     "No results and no interpretation belong here \u2014 only what was done"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "RESULTS",
+  "title": "The Results: Just the Findings",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Reports what was observed \u2014 described in words, supported by figures and tables",
+     "Follows a logical order, usually matching the order methods were introduced",
+     "States numbers precisely: exact values, units, and appropriate statistics",
+     "The single most common student error: sneaking interpretation in here \u2014 save it for the Discussion"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "DISCUSSION",
+  "title": "The Discussion: What It Means",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Opens by restating the main finding in plain terms",
+     "Compares your results to previous studies \u2014 do they agree, or not, and why?",
+     "States limitations honestly \u2014 every study has them",
+     "Closes with the real-world or scientific significance of the work"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "SORT IT OUT",
+  "title": "\u201cBlood pressure was significantly lower in the treatment group (p<0.01).\u201d Which IMRAD section does this sentence belong in?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Decide individually, then compare with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 37,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Results \u2014 Here's Why",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "It reports an observed finding with a statistic \u2014 no interpretation, no comparison to other studies",
+     "A Discussion version might read: \u201cThis reduction suggests the treatment improves cardiovascular risk, consistent with prior trials\u201d",
+     "Notice the shift: Results = what happened. Discussion = what it means"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 38,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Results Section: Two Drafts",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "MIXES IN INTERPRETATION"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe treatment group showed lower blood pressure, which proves the drug is effective and should be adopted as first-line therapy.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cProves\u201d and \u201cshould be adopted\u201d are interpretive claims \u2014 they belong in the Discussion, supported by comparison to other evidence."
+   },
+   {
+    "role": "paragraph",
+    "text": "STAYS OBJECTIVE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cMean systolic blood pressure was 8 mmHg lower in the treatment group than the control group (p<0.01).\u201d"
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Where should a study's limitations be discussed?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "In the Methods, as a disclaimer"
+   },
+   {
+    "role": "paragraph",
+    "text": "In the Results, after the main findings"
+   },
+   {
+    "role": "paragraph",
+    "text": "In the Discussion, before the conclusion"
+   },
+   {
+    "role": "paragraph",
+    "text": "In the Abstract only"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 40,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Where should a study's limitations be discussed?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "In the Methods, as a disclaimer"
+   },
+   {
+    "role": "paragraph",
+    "text": "In the Results, after the main findings"
+   },
+   {
+    "role": "paragraph",
+    "text": "In the Discussion, before the conclusion"
+   },
+   {
+    "role": "paragraph",
+    "text": "In the Abstract only"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: C. Limitations are an interpretive judgment about how much weight your findings should carry \u2014 that's Discussion work. Readers expect them just before your final conclusions."
+   }
+  ]
+ },
+ {
+  "n": 41,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "QUICK REFERENCE",
+  "title": "IMRAD at a Glance",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Section",
+     "Guiding Question",
+     "Typical Verb Tense"
+    ],
+    "rows": [
+     [
+      "Introduction",
+      "Why did you do this study?",
+      "Present (facts) / Past (prior studies)"
+     ],
+     [
+      "Methods",
+      "What did you do, exactly?",
+      "Past tense throughout"
+     ],
+     [
+      "Results",
+      "What did you find?",
+      "Past tense throughout"
+     ],
+     [
+      "Discussion",
+      "What does it mean?",
+      "Present (interpretation) / Past (findings)"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 42,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "THE BIGGER PICTURE",
+  "title": "From Draft to Publication \u2014 A Preview",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Draft"
+   },
+   {
+    "role": "paragraph",
+    "text": "Write a complete first version of the manuscript"
+   },
+   {
+    "role": "subheading",
+    "text": "Internal Review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Co-authors and mentors give feedback"
+   },
+   {
+    "role": "subheading",
+    "text": "Submit"
+   },
+   {
+    "role": "paragraph",
+    "text": "Sent to a target journal for consideration"
+   },
+   {
+    "role": "subheading",
+    "text": "Peer Review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Independent experts evaluate the work"
+   },
+   {
+    "role": "subheading",
+    "text": "Publish"
+   },
+   {
+    "role": "paragraph",
+    "text": "Revised and accepted version becomes public"
+   }
+  ]
+ },
+ {
+  "n": 43,
+  "classId": 1,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Title, Abstract & Keywords",
+  "partLabel": "PART 4 OF 5",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 44,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "FIRST IMPRESSIONS",
+  "title": "The Title: Your Paper's Only Guaranteed Reader",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Most people who encounter your paper will only ever read the title",
+     "It must be informative enough to stand alone \u2014 no vague or clever titles",
+     "Should describe the population, intervention/exposure, and key outcome where possible",
+     "Every important search term a colleague might use should appear somewhere in it"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 45,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Weak Title vs. Strong Title",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "TOO VAGUE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cA Study of Blood Pressure in Patients\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The strong version names the intervention, duration, population, and outcome \u2014 a reader (or search engine) knows exactly what's inside."
+   },
+   {
+    "role": "paragraph",
+    "text": "SPECIFIC & SEARCHABLE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cEffect of an 8-Week Walking Program on Systolic Blood Pressure in Adults with Stage 1 Hypertension\u201d"
+   }
+  ]
+ },
+ {
+  "n": 46,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "THE PAPER IN MINIATURE",
+  "title": "The Abstract",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A self-contained summary \u2014 usually 200\u2013300 words, with a strict journal word limit",
+     "Mirrors IMRAD in miniature: background, aim, methods, key results, conclusion",
+     "Must be understandable without reading the rest of the paper",
+     "Often written last, even though it appears first"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 47,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TWO FORMATS",
+  "title": "Structured vs. Unstructured Abstracts",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Structured"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Labeled subheadings: Background, Methods, Results, Conclusion",
+     "Common in clinical and biomedical journals",
+     "Easier to scan quickly for key facts"
+    ]
+   },
+   {
+    "role": "subheading",
+    "text": "Unstructured"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "One continuous paragraph, no subheadings",
+     "Common in basic science and some humanities-adjacent journals",
+     "Requires stronger internal logic to guide the reader"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 48,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "THINK ABOUT IT",
+  "title": "If you searched a database for your own future study, what words would you type?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Jot down 3 keywords \u2014 we'll compare a few out loud"
+   }
+  ]
+ },
+ {
+  "n": 49,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Making Your Work Findable",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Include your key terms in the title, abstract, and keyword list \u2014 not just once, but naturally repeated",
+     "Avoid abbreviations or lab-specific jargon in place of standard terms",
+     "Think like your future reader, not like the person who already knows the project"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 50,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "An abstract should generally be understandable:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Only by co-authors who know the project"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only after reading the full paper"
+   },
+   {
+    "role": "paragraph",
+    "text": "On its own, without reading the rest of the paper"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only by statisticians"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 51,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "An abstract should generally be understandable:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Only by co-authors who know the project"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only after reading the full paper"
+   },
+   {
+    "role": "paragraph",
+    "text": "On its own, without reading the rest of the paper"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only by statisticians"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: C. Databases, search engines, and busy readers often show only the abstract. If it depends on the full text to make sense, it has failed its main job."
+   }
+  ]
+ },
+ {
+  "n": 52,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Weak Abstract Opening vs. Strong Abstract Opening",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "GENERIC"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis study looks at an important health topic and presents some interesting findings.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "A strong abstract opening states the specific topic and why it matters \u2014 never a vague preview of \u201csomething interesting.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "SPECIFIC AND INFORMATIVE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cBackground: Adherence to hypertension medication remains low among young adults, though the reasons are poorly understood.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 53,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "PRACTICAL TIP",
+  "title": "Drafting Your Abstract Efficiently",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Draft it last, but budget real time for it \u2014 it's often the most-read part of your paper",
+     "Try writing one sentence per IMRAD section first, then expand within the word limit",
+     "Check your target journal's exact word limit and structure requirements before finalizing",
+     "Read it aloud once, completely alone from the rest of the paper \u2014 does it still make sense?"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 54,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "Class 1 \u2014 Key Takeaways",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Scientific writing exists to help readers evaluate evidence quickly and fairly"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Different documents (article, review, case report, thesis) serve different purposes"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "IMRAD is the shared logic behind almost all of them: question \u2192 method \u2192 finding \u2192 meaning"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "The title and abstract carry outsized weight \u2014 most readers never go further"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   }
+  ]
+ },
+ {
+  "n": 55,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "Good scientific writing doesn't decorate an idea \u2014 it gets out of its way.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u2014 A guiding principle for this course"
+   }
+  ]
+ },
+ {
+  "n": 56,
+  "classId": 1,
+  "kind": "content",
+  "eyebrow": "BEFORE NEXT CLASS",
+  "title": "Before Class 2",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Bring these to our next session"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Find one published original article in your field of interest",
+     "Label its Introduction, Methods, Results, and Discussion sections",
+     "Bring one sentence from that paper's Results that you think is written clearly"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "Next: Class 2 \u2014 Writing Clear and Accurate Sentences"
+   }
+  ]
+ },
+ {
+  "n": 57,
+  "classId": 2,
+  "kind": "class-cover",
+  "eyebrow": null,
+  "title": "Writing Clear and Accurate Sentences",
+  "partLabel": null,
+  "classLabel": "CLASS 2 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Sentence structure, voice, and cutting the words that don't earn their place"
+   }
+  ]
+ },
+ {
+  "n": 58,
+  "classId": 2,
+  "kind": "class-cover",
+  "eyebrow": "Branko Aleksic \u00b7 Dept. of International Medical Education",
+  "title": "Writing Clear and Accurate Sentences",
+  "partLabel": null,
+  "classLabel": "CLASS 2 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Sentence structure, voice, and cutting the words that don't earn their place"
+   },
+   {
+    "role": "paragraph",
+    "text": "Scientific Writing: Principles and Practice \u00b7 Honours Student Program"
+   }
+  ]
+ },
+ {
+  "n": 59,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TODAY'S ROADMAP",
+  "title": "What We'll Cover",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Class 1 \u2014 Foundations: purpose, document types, IMRAD structure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 2 \u2014 Writing clear and accurate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 3 \u2014 Building the introduction and literature review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 4 \u2014 Presenting results and discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 5 \u2014 Editing, peer review, and science communication"
+   }
+  ]
+ },
+ {
+  "n": 60,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TODAY'S FOCUS",
+  "title": "By the End of Today, You Can:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Build sentences and paragraphs that carry exactly one idea at a time",
+     "Choose actively between active and passive voice, not by habit",
+     "Recognize and remove the redundancy that clogs scientific prose",
+     "Revise a rough sentence into a clear, precise one"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 61,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "WARM-UP",
+  "title": "\u201cIt was found that the levels of the biomarker, which had been previously reported in several other studies conducted in different populations, were significantly elevated.\u201d What's wrong with this sentence?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Talk with a neighbor \u2014 what would you cut first?"
+   }
+  ]
+ },
+ {
+  "n": 62,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Too Many Ideas, One Sentence",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "It buries the finding (\u201clevels were elevated\u201d) under a long qualifying clause",
+     "Passive voice (\u201cit was found\u201d) adds words without adding meaning",
+     "A reader has to hold three ideas in memory before reaching the point",
+     "Fix: split it. State the finding first, then add context in a second sentence"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 63,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "THE TOOLKIT",
+  "title": "Four Habits of Clear Scientific Writers",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "One Idea, One Sentence"
+   },
+   {
+    "role": "paragraph",
+    "text": "Never let a sentence carry more than one claim"
+   },
+   {
+    "role": "subheading",
+    "text": "Cut Redundancy"
+   },
+   {
+    "role": "paragraph",
+    "text": "Every surviving word should earn its place"
+   },
+   {
+    "role": "subheading",
+    "text": "Deliberate Voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Choose active or passive based on what matters"
+   },
+   {
+    "role": "subheading",
+    "text": "One Purpose, One Paragraph"
+   },
+   {
+    "role": "paragraph",
+    "text": "Build paragraphs around a single topic sentence"
+   }
+  ]
+ },
+ {
+  "n": 64,
+  "classId": 2,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "One Idea Per Sentence",
+  "partLabel": "PART 1 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 65,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "CORE PRINCIPLE",
+  "title": "One Sentence, One Idea",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Every sentence should make exactly one claim the reader can check off before moving on",
+     "If a sentence needs 'and', 'which', or 'while' to hold two unrelated facts together, consider splitting it",
+     "Short does not mean simplistic \u2014 precision is the goal, not brevity for its own sake",
+     "Long sentences are appropriate only when the ideas are genuinely, logically connected"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 66,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Splitting an Overloaded Sentence",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "TWO IDEAS COLLIDING"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe intervention reduced HbA1c by 0.8%, and adherence was measured using a validated questionnaire administered at baseline and follow-up.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The result and the measurement method are two separate claims \u2014 each deserves its own sentence."
+   },
+   {
+    "role": "paragraph",
+    "text": "SPLIT INTO TWO CLAIMS"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe intervention reduced HbA1c by 0.8%. Adherence was measured using a validated questionnaire at baseline and follow-up.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 67,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "YOUR TURN",
+  "title": "\u201cParticipants were randomized to treatment or control and the primary outcome, defined as change in systolic blood pressure at 12 weeks, was analyzed using a mixed-effects model.\u201d How would you split this into two sentences?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Draft a two-sentence version on paper \u2014 2 minutes"
+   }
+  ]
+ },
+ {
+  "n": 68,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "One Possible Split",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cParticipants were randomized to treatment or control.\u201d",
+     "\u201cThe primary outcome \u2014 change in systolic blood pressure at 12 weeks \u2014 was analyzed using a mixed-effects model.\u201d",
+     "Notice: each sentence now answers one question a reader might ask"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 69,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A sentence containing three linked clauses joined by 'and' is usually a sign that you should:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Add more clauses for completeness"
+   },
+   {
+    "role": "paragraph",
+    "text": "Consider splitting it into separate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Convert it to passive voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Move it to the abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 70,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A sentence containing three linked clauses joined by 'and' is usually a sign that you should:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Add more clauses for completeness"
+   },
+   {
+    "role": "paragraph",
+    "text": "Consider splitting it into separate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Convert it to passive voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Move it to the abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Multiple 'and'-joined clauses often signal multiple ideas competing for the same sentence. Splitting lets each claim stand on its own and be verified independently."
+   }
+  ]
+ },
+ {
+  "n": 71,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "A HIDDEN CULPRIT",
+  "title": "Nominalizations: Verbs Disguised as Nouns",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A nominalization turns a strong verb into an abstract noun \u2014 'investigate' becomes 'conduct an investigation of'",
+     "This adds words and distances the sentence from a clear actor and action",
+     "Scan your drafts for endings like '-tion', '-ment', '-ance' \u2014 each is a candidate for a stronger verb",
+     "Not every nominalization is wrong \u2014 but most sentences read better with the verb restored"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 72,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Restoring the Verb",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "BURIED VERB"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe research team conducted an investigation of the relationship between diet and inflammation.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cConducted an investigation of\u201d and \u201cinvestigated\u201d mean exactly the same thing \u2014 the second version says it in three fewer words."
+   },
+   {
+    "role": "paragraph",
+    "text": "VERB RESTORED"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe research team investigated the relationship between diet and inflammation.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 73,
+  "classId": 2,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Active and Passive Voice",
+  "partLabel": "PART 2 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 74,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TWO TOOLS, DIFFERENT JOBS",
+  "title": "Active vs. Passive Voice",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Active Voice"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cWe measured blood pressure every 4 weeks.\u201d",
+     "Shorter, more direct, easier to follow",
+     "Best when the actor (who did it) matters"
+    ]
+   },
+   {
+    "role": "subheading",
+    "text": "Passive Voice"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cBlood pressure was measured every 4 weeks.\u201d",
+     "Shifts focus onto the action or object, not the actor",
+     "Best when the actor is obvious, irrelevant, or unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 75,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "MAKING THE CHOICE",
+  "title": "When to Use Which",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Use active voice by default",
+     "It's shorter and puts the responsible agent front and center",
+     "Use passive voice deliberately in Methods",
+     "\u201cSamples were centrifuged\u201d \u2014 the reader doesn't need to know who operated the centrifuge",
+     "Avoid passive voice when it hides who is responsible for a judgment",
+     "\u201cIt is believed that...\u201d hides whether this is your claim or someone else's",
+     "Many journals now prefer active voice throughout \u2014 check journal-specific author guidelines"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 76,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Passive Voice That Hides the Actor",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "WHO DECIDED THIS?"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cIt was decided that the control group would not receive follow-up assessment.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The revised version restores the actor and adds the missing reason \u2014 both are information the reader needs."
+   },
+   {
+    "role": "paragraph",
+    "text": "CLEAR RESPONSIBILITY"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe research team excluded the control group from follow-up assessment to reduce participant burden.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 77,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "PUTTING IT TOGETHER",
+  "title": "Voice by IMRAD Section",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Section",
+     "Typical Voice",
+     "Why"
+    ],
+    "rows": [
+     [
+      "Introduction",
+      "Active, mostly",
+      "You are making claims and setting up an argument"
+     ],
+     [
+      "Methods",
+      "Mixed \u2014 passive common",
+      "The actor (you) is often assumed; the procedure matters more"
+     ],
+     [
+      "Results",
+      "Active, mostly",
+      "Direct statement of what was found reads more clearly"
+     ],
+     [
+      "Discussion",
+      "Active, mostly",
+      "You are the one interpreting \u2014 own that role"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 78,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "REWRITE IT",
+  "title": "\u201cThe questionnaire was completed by participants after each session.\u201d Rewrite this in active voice. Does it read better, or was passive the right choice?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Try both versions on paper \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 79,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Both Versions Have a Place",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Active: \u201cParticipants completed the questionnaire after each session.\u201d \u2014 slightly shorter, equally clear",
+     "Here, either voice works well because the actor (participants) is not in question",
+     "The real test: does the voice you chose make the sentence easier or harder to follow?"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 80,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "In a Methods section, passive voice is most defensible when:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "You want to sound more formal"
+   },
+   {
+    "role": "paragraph",
+    "text": "The actor performing the action is obvious or unimportant"
+   },
+   {
+    "role": "paragraph",
+    "text": "You are unsure who did the work"
+   },
+   {
+    "role": "paragraph",
+    "text": "You need to lengthen the section"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 81,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "In a Methods section, passive voice is most defensible when:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "You want to sound more formal"
+   },
+   {
+    "role": "paragraph",
+    "text": "The actor performing the action is obvious or unimportant"
+   },
+   {
+    "role": "paragraph",
+    "text": "You are unsure who did the work"
+   },
+   {
+    "role": "paragraph",
+    "text": "You need to lengthen the section"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Passive voice earns its place when naming the actor would add nothing useful \u2014 e.g., routine lab procedures. It should never be used simply to sound more 'scientific.'"
+   }
+  ]
+ },
+ {
+  "n": 82,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "A RELATED SKILL",
+  "title": "Hedging: Saying How Sure You Are",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Hedges ('may', 'could', 'suggests', 'appears to') calibrate how confident a claim is",
+     "Under-hedging overstates certainty; over-hedging makes every sentence sound tentative and weak",
+     "Match your hedge to your evidence: strong data supports strong language; preliminary data needs softer claims",
+     "Avoid stacking hedges \u2014 'may possibly suggest' hedges the same idea twice"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 83,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A single small pilot study found a promising trend that didn't reach statistical significance. Which claim best matches the evidence?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment cures the condition.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment may offer modest benefit, though further study is needed.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment has no effect whatsoever.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment possibly could perhaps help somewhat.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 84,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A single small pilot study found a promising trend that didn't reach statistical significance. Which claim best matches the evidence?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment cures the condition.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment may offer modest benefit, though further study is needed.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment has no effect whatsoever.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis treatment possibly could perhaps help somewhat.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. It hedges exactly once, in proportion to weak-but-promising evidence \u2014 neither overclaiming a cure nor stacking redundant hedges."
+   }
+  ]
+ },
+ {
+  "n": 85,
+  "classId": 2,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Cutting Redundancy",
+  "partLabel": "PART 3 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 86,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "THE ENEMY OF CLARITY",
+  "title": "Redundancy Hides Your Point",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Redundant phrases feel formal but add zero information",
+     "Every extra word costs the reader attention \u2014 spend that attention wisely",
+     "Journals enforce strict word limits; redundancy is the easiest place to find space",
+     "Cutting redundancy is not about writing less \u2014 it's about writing exactly enough"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 87,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "COMMON OFFENDERS",
+  "title": "Redundant Phrases and Their Fixes",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Wordy",
+     "Concise"
+    ],
+    "rows": [
+     [
+      "due to the fact that",
+      "because"
+     ],
+     [
+      "in order to",
+      "to"
+     ],
+     [
+      "a total of 42 patients",
+      "42 patients"
+     ],
+     [
+      "it is important to note that",
+      "(often, just delete it)"
+     ],
+     [
+      "at this point in time",
+      "now / currently"
+     ],
+     [
+      "the majority of",
+      "most"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 88,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Trimming a Redundant Sentence",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "PADDED"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cDue to the fact that a total of 42 patients were enrolled, it is important to note that the sample size was adequate in order to detect a clinically meaningful difference.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Same information, roughly 30% fewer words \u2014 and easier to read in one pass."
+   },
+   {
+    "role": "paragraph",
+    "text": "TRIMMED"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cBecause 42 patients were enrolled, the sample size was adequate to detect a clinically meaningful difference.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 89,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "YOUR TURN",
+  "title": "\u201cIn the present study, we investigated, for the first time, the novel and previously unreported relationship between X and Y.\u201d What can be cut without losing meaning?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Circle every word you'd delete \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 90,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "What Changed and Why",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cWe investigated the relationship between X and Y.\u201d",
+     "\u201cNovel,\u201d \u201cpreviously unreported,\u201d and \u201cfor the first time\u201d all claim the same thing \u2014 pick one, or let the introduction establish novelty instead",
+     "\u201cIn the present study\u201d is almost always unnecessary \u2014 the reader knows which study this is"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 91,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Which revision best fixes \u201ca total of 15 subjects were recruited for participation in the study\u201d?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cA total of 15 subjects participated.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c15 subjects were recruited.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cSubjects, a total of 15, were recruited for the study.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "No change needed"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 92,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Which revision best fixes \u201ca total of 15 subjects were recruited for participation in the study\u201d?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cA total of 15 subjects participated.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c15 subjects were recruited.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cSubjects, a total of 15, were recruited for the study.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "No change needed"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. \u201cA total of\u201d and \u201cfor participation in the study\u201d add no new information \u2014 the number and the verb \u201crecruited\u201d already say everything needed."
+   }
+  ]
+ },
+ {
+  "n": 93,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "PRECISION MATTERS",
+  "title": "Vague Quantifiers Undermine Precision",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Words like 'significant,' 'many,' 'several,' and 'a large proportion' feel scientific but carry no exact meaning",
+     "'Significant' especially is dangerous \u2014 it has a strict statistical meaning that differs from everyday usage",
+     "Whenever you have the actual number, use it instead of a vague quantifier",
+     "Reserve 'significant' for statistical significance; use 'substantial' or 'considerable' for a general sense of size"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 94,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Vague Quantifier vs. Exact Figure",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "VAGUE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cA large proportion of participants reported significant improvement in symptoms.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The revised version separates the proportion (78%) from the statistical claim (p<0.01) \u2014 'significant' is no longer doing double duty."
+   },
+   {
+    "role": "paragraph",
+    "text": "PRECISE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c78% of participants (39/50) reported symptom improvement, and the difference from baseline was statistically significant (p<0.01).\u201d"
+   }
+  ]
+ },
+ {
+  "n": 95,
+  "classId": 2,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Building Clear Paragraphs",
+  "partLabel": "PART 4 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 96,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "SCALING UP",
+  "title": "From Sentences to Paragraphs",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A paragraph is a group of sentences serving one clear purpose \u2014 just like a sentence carries one idea",
+     "Start with a topic sentence that states the paragraph's main point",
+     "Every following sentence should support, explain, or provide evidence for that point",
+     "If a sentence doesn't relate to the topic sentence, it likely belongs in a different paragraph"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 97,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "A RELIABLE PATTERN",
+  "title": "Anatomy of a Strong Paragraph",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Topic Sentence"
+   },
+   {
+    "role": "paragraph",
+    "text": "States the paragraph's single main claim"
+   },
+   {
+    "role": "subheading",
+    "text": "Supporting Evidence"
+   },
+   {
+    "role": "paragraph",
+    "text": "Data, citations, or reasoning backing the claim"
+   },
+   {
+    "role": "subheading",
+    "text": "Elaboration"
+   },
+   {
+    "role": "paragraph",
+    "text": "Explains significance or adds necessary nuance"
+   },
+   {
+    "role": "subheading",
+    "text": "Transition"
+   },
+   {
+    "role": "paragraph",
+    "text": "Links smoothly to the next paragraph's idea"
+   }
+  ]
+ },
+ {
+  "n": 98,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "DIAGNOSE IT",
+  "title": "You read a paragraph and can't tell what its main point is after the first sentence. What's the most likely cause?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 99,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Usually One of Three Causes",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "The topic sentence is missing \u2014 the paragraph just starts with a supporting detail",
+     "The topic sentence is too general to predict what follows",
+     "The paragraph actually contains two ideas and should be split in two"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 100,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Paragraph With No Clear Topic Sentence",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "WANDERING"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cParticipants completed the survey online. Some used mobile devices. The response rate varied by age group. Data were checked for completeness before analysis.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The revised version opens with the point (completion varied) so every following sentence has a clear job: supporting that claim."
+   },
+   {
+    "role": "paragraph",
+    "text": "ANCHORED BY A TOPIC SENTENCE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cSurvey completion varied by device and age group. Most participants used mobile devices, and response rates were highest among younger age groups. All responses were checked for completeness before analysis.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 101,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A paragraph with no topic sentence and several unrelated facts is best fixed by:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Adding a strong final sentence to summarize"
+   },
+   {
+    "role": "paragraph",
+    "text": "Adding a topic sentence and/or splitting it into focused paragraphs"
+   },
+   {
+    "role": "paragraph",
+    "text": "Converting every sentence to passive voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Making all sentences the same length"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 102,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A paragraph with no topic sentence and several unrelated facts is best fixed by:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Adding a strong final sentence to summarize"
+   },
+   {
+    "role": "paragraph",
+    "text": "Adding a topic sentence and/or splitting it into focused paragraphs"
+   },
+   {
+    "role": "paragraph",
+    "text": "Converting every sentence to passive voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Making all sentences the same length"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. A missing topic sentence and unrelated facts both point to the same root cause \u2014 the paragraph hasn't committed to one purpose yet. Give it one, or divide it into paragraphs that each can."
+   }
+  ]
+ },
+ {
+  "n": 103,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "CONNECTING IDEAS",
+  "title": "Transitions Between Paragraphs",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A transition tells the reader how the next paragraph relates to the one before it",
+     "Common relationships: building on a point, contrasting it, or narrowing from general to specific",
+     "Avoid mechanical transition words ('Furthermore,' 'Moreover,') as a substitute for real logical connection",
+     "The strongest transitions echo a key word or idea from the previous paragraph's last sentence"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 104,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Mechanical Transition vs. Logical Transition",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "MECHANICAL ONLY"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c...supports this mechanism. Furthermore, other factors may also be relevant.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The second version links specific content across paragraphs, not just a generic connector word."
+   },
+   {
+    "role": "paragraph",
+    "text": "LOGICALLY CONNECTED"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c...supports this mechanism. This same pathway may also explain the age-related differences described below.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 105,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "BEFORE YOU MOVE ON",
+  "title": "Sentence-Level Self-Check",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "One Idea?"
+   },
+   {
+    "role": "paragraph",
+    "text": "Does each sentence make exactly one claim?"
+   },
+   {
+    "role": "subheading",
+    "text": "No Padding?"
+   },
+   {
+    "role": "paragraph",
+    "text": "Has every redundant phrase been cut?"
+   },
+   {
+    "role": "subheading",
+    "text": "Right Voice?"
+   },
+   {
+    "role": "paragraph",
+    "text": "Is active/passive chosen deliberately, not by habit?"
+   },
+   {
+    "role": "subheading",
+    "text": "Clear Topic Sentence?"
+   },
+   {
+    "role": "paragraph",
+    "text": "Does every paragraph open with its main point?"
+   }
+  ]
+ },
+ {
+  "n": 106,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "Class 2 \u2014 Key Takeaways",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "One sentence, one idea \u2014 split sentences that try to carry more than one claim"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Choose active or passive voice deliberately, based on whether the actor matters"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Hunt down and cut redundant phrases \u2014 every word should earn its place"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Paragraphs need a clear topic sentence and single unifying purpose"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   }
+  ]
+ },
+ {
+  "n": 107,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "If a sentence needs to be read twice to be understood, it needs to be rewritten once.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u2014 A guiding principle for this course"
+   }
+  ]
+ },
+ {
+  "n": 108,
+  "classId": 2,
+  "kind": "content",
+  "eyebrow": "BEFORE NEXT CLASS",
+  "title": "Before Class 3",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Bring these to our next session"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Take one paragraph from your own writing (or a draft idea) and split any overloaded sentences",
+     "Circle three redundant phrases in something you've previously written and revise them",
+     "Bring one sentence you're proud of \u2014 we may share a few"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "Next: Class 3 \u2014 Building the Introduction and Literature Review"
+   }
+  ]
+ },
+ {
+  "n": 109,
+  "classId": 3,
+  "kind": "class-cover",
+  "eyebrow": null,
+  "title": "Building the Introduction and Literature Review",
+  "partLabel": null,
+  "classLabel": "CLASS 3 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "From broad context to a precise, defensible research question"
+   }
+  ]
+ },
+ {
+  "n": 110,
+  "classId": 3,
+  "kind": "class-cover",
+  "eyebrow": "Branko Aleksic \u00b7 Dept. of International Medical Education",
+  "title": "Building the Introduction and Literature Review",
+  "partLabel": null,
+  "classLabel": "CLASS 3 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "From broad context to a precise, defensible research question"
+   },
+   {
+    "role": "paragraph",
+    "text": "Scientific Writing: Principles and Practice \u00b7 Honours Student Program"
+   }
+  ]
+ },
+ {
+  "n": 111,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TODAY'S ROADMAP",
+  "title": "What We'll Cover",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Class 1 \u2014 Foundations: purpose, document types, IMRAD structure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 2 \u2014 Writing clear and accurate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 3 \u2014 Building the introduction and literature review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 4 \u2014 Presenting results and discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 5 \u2014 Editing, peer review, and science communication"
+   }
+  ]
+ },
+ {
+  "n": 112,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TODAY'S FOCUS",
+  "title": "By the End of Today, You Can:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Structure an introduction as a funnel from broad context to specific aim",
+     "Conduct a focused literature review and synthesize \u2014 not just list \u2014 sources",
+     "Identify and articulate a genuine gap in existing knowledge",
+     "Write a research question and hypothesis that your study can actually answer"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 113,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "WHY IT'S HARD",
+  "title": "The Introduction Is Usually Written Last",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Most experienced writers draft the introduction after Methods and Results are settled",
+     "It's easier to justify a study you've already completed than to predict how to frame one",
+     "Don't be discouraged if your first draft of the introduction feels weak \u2014 that's normal, not a sign of failure",
+     "Today we'll build it piece by piece, so a full draft feels manageable"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 114,
+  "classId": 3,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "The Introduction as a Funnel",
+  "partLabel": "PART 1 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 115,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "THE SHAPE OF AN INTRODUCTION",
+  "title": "Four Moves, Narrowing Each Time",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "1. Context"
+   },
+   {
+    "role": "paragraph",
+    "text": "Why does this topic matter, broadly?"
+   },
+   {
+    "role": "subheading",
+    "text": "2. What's Known"
+   },
+   {
+    "role": "paragraph",
+    "text": "Summarize the relevant prior work"
+   },
+   {
+    "role": "subheading",
+    "text": "3. The Gap"
+   },
+   {
+    "role": "paragraph",
+    "text": "What remains unknown or unresolved?"
+   },
+   {
+    "role": "subheading",
+    "text": "4. Your Aim"
+   },
+   {
+    "role": "paragraph",
+    "text": "State exactly what you set out to do"
+   }
+  ]
+ },
+ {
+  "n": 116,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "MOVE 1",
+  "title": "Opening: Establish Why It Matters",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Start with the clinical or scientific importance of the general topic \u2014 not a dictionary definition",
+     "Use the opening 2-3 sentences to orient any reader, including one outside your subfield",
+     "Avoid starting with 'Since ancient times...' or other overly broad historical openers",
+     "Ground the importance in real consequences: disease burden, unresolved clinical questions, cost"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 117,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Opening Sentences: Two Drafts",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "TOO BROAD, NO STAKES"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cDiabetes has been studied by scientists for many years and is an important disease that affects many people around the world.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The stronger version names a real number and a specific consequence \u2014 it earns the reader's attention instead of assuming it."
+   },
+   {
+    "role": "paragraph",
+    "text": "SPECIFIC AND CONSEQUENTIAL"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cType 2 diabetes affects over 400 million adults worldwide and remains a leading cause of preventable cardiovascular disease.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 118,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "Think of your own research interest. In one sentence, why should a stranger care about it?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Share your sentence with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 119,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "What Makes an Opening Work",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "It names a concrete consequence (health outcome, cost, unresolved risk) \u2014 not just 'importance'",
+     "It avoids assuming the reader already cares \u2014 it earns that interest",
+     "It sets up, but doesn't yet answer, the question your study addresses"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 120,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "An introduction that opens with 'Since ancient times, disease has affected humanity...' is weak mainly because it:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Is grammatically incorrect"
+   },
+   {
+    "role": "paragraph",
+    "text": "Is too broad to establish specific, concrete stakes"
+   },
+   {
+    "role": "paragraph",
+    "text": "Uses passive voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Is too short"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 121,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "An introduction that opens with 'Since ancient times, disease has affected humanity...' is weak mainly because it:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Is grammatically incorrect"
+   },
+   {
+    "role": "paragraph",
+    "text": "Is too broad to establish specific, concrete stakes"
+   },
+   {
+    "role": "paragraph",
+    "text": "Uses passive voice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Is too short"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Sweeping historical openers delay the real content. Readers need concrete, current stakes within the first sentence or two \u2014 not a broad narrative windup."
+   }
+  ]
+ },
+ {
+  "n": 122,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "PACING",
+  "title": "How Much Space for Each Move?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "As a rough guide for a typical article: context (10-15%), what's known (40-50%), gap (15-20%), aim (10-15%)",
+     "A common student mistake is spending too many paragraphs on background and rushing the gap and aim",
+     "If your introduction is longer than about one printed page, look for content that belongs in the Discussion instead",
+     "The aim should almost always be the introduction's final sentence or two"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 123,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "DIAGNOSE IT",
+  "title": "You read an introduction and reach the end still unsure what the study actually tested. What pacing problem does this suggest?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 124,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "The Funnel Never Reached Its Point",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Likely too much space was spent on background, crowding out the gap and aim",
+     "Or the aim was stated too vaguely to register as the funnel's narrowest point",
+     "Fix: read only your introduction's last two sentences \u2014 do they clearly state what you did?"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 125,
+  "classId": 3,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Reviewing the Literature",
+  "partLabel": "PART 2 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 126,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "MOVE 2",
+  "title": "Summarizing What's Already Known",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "The goal is synthesis, not a list \u2014 group studies by theme or finding, not one sentence per paper",
+     "Cite the studies most directly relevant to your question, not everything you read",
+     "Note where studies agree, where they conflict, and what methods they used",
+     "Every citation should do work \u2014 advancing the argument toward your gap, not just padding the section"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 127,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TWO VERY DIFFERENT RESULTS",
+  "title": "Listing Sources vs. Synthesizing Them",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Listing (Weak)"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cSmith et al. found X. Jones et al. found Y. Lee et al. found Z.\u201d",
+     "Reads like an annotated bibliography",
+     "Leaves the reader to draw connections themselves"
+    ]
+   },
+   {
+    "role": "subheading",
+    "text": "Synthesizing (Strong)"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cSeveral studies report X (Smith; Jones), though findings on Y remain inconsistent (Lee vs. Chan).\u201d",
+     "Groups studies by theme and highlights agreement or conflict",
+     "Does the interpretive work for the reader"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 128,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "DIAGNOSE IT",
+  "title": "\u201cReference [12] studied X in mice. Reference [13] studied a related question in rats. Reference [14] used a different method entirely.\u201d What's the underlying problem here?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 129,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "It's a List, Not an Argument",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Each sentence just restates a citation \u2014 there's no relationship drawn between them",
+     "A synthesized version might say: 'Animal models consistently show X, though findings vary by species and method'",
+     "The reader should finish the paragraph understanding the state of the field, not just three isolated facts"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 130,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "The primary goal of the literature review section is to:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "List every paper you read during your research"
+   },
+   {
+    "role": "paragraph",
+    "text": "Synthesize prior findings to set up your specific gap"
+   },
+   {
+    "role": "paragraph",
+    "text": "Prove you read more papers than other researchers"
+   },
+   {
+    "role": "paragraph",
+    "text": "Summarize your own results in advance"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 131,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "The primary goal of the literature review section is to:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "List every paper you read during your research"
+   },
+   {
+    "role": "paragraph",
+    "text": "Synthesize prior findings to set up your specific gap"
+   },
+   {
+    "role": "paragraph",
+    "text": "Prove you read more papers than other researchers"
+   },
+   {
+    "role": "paragraph",
+    "text": "Summarize your own results in advance"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. A literature review is an argument in miniature: it builds, source by source, toward the specific gap your study will address \u2014 not a record of your reading list."
+   }
+  ]
+ },
+ {
+  "n": 132,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "KNOW YOUR SOURCES",
+  "title": "Primary vs. Secondary Sources",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Primary Sources"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Original research articles reporting new data",
+     "The gold standard for supporting specific claims",
+     "Always prefer these when citing a specific finding"
+    ]
+   },
+   {
+    "role": "subheading",
+    "text": "Secondary Sources"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Review articles, textbooks, and summaries of others' work",
+     "Useful for background context and orientation",
+     "Risky to cite for specific numbers \u2014 trace back to the primary source"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 133,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "You want to cite a specific statistic (e.g., a prevalence rate). What should you do?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Cite whichever source mentions the number, even a textbook"
+   },
+   {
+    "role": "paragraph",
+    "text": "Trace the number back to the primary study and cite that"
+   },
+   {
+    "role": "paragraph",
+    "text": "Avoid using specific numbers in the introduction"
+   },
+   {
+    "role": "paragraph",
+    "text": "Cite a review article that references the number"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 134,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "You want to cite a specific statistic (e.g., a prevalence rate). What should you do?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Cite whichever source mentions the number, even a textbook"
+   },
+   {
+    "role": "paragraph",
+    "text": "Trace the number back to the primary study and cite that"
+   },
+   {
+    "role": "paragraph",
+    "text": "Avoid using specific numbers in the introduction"
+   },
+   {
+    "role": "paragraph",
+    "text": "Cite a review article that references the number"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Numbers can drift or be misquoted as they pass through secondary sources. Always trace a specific statistic back to where it was originally measured and reported."
+   }
+  ]
+ },
+ {
+  "n": 135,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "PRACTICAL SKILLS",
+  "title": "Finding and Managing Sources",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Start with a focused search in PubMed or a relevant database \u2014 use specific terms, not single broad keywords",
+     "Prioritize recent, high-quality, peer-reviewed sources; include foundational older work only when necessary",
+     "Use reference management software (e.g., Zotero, EndNote, Mendeley) from the very first source you save",
+     "Track why each source matters as you save it \u2014 you'll forget by the time you write"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 136,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "A PRACTICAL TOOL",
+  "title": "A Simple Synthesis Matrix",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Theme",
+     "Supporting Studies",
+     "Agreement / Conflict"
+    ],
+    "rows": [
+     [
+      "Effect in adults",
+      "Smith (2021), Jones (2022)",
+      "Consistent positive effect"
+     ],
+     [
+      "Effect in adolescents",
+      "Lee (2020)",
+      "Single study \u2014 unconfirmed"
+     ],
+     [
+      "Optimal duration",
+      "Chan (2019), Park (2023)",
+      "Conflicting \u2014 4 vs. 8 weeks"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 137,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "A PRACTICAL TOOL",
+  "title": "Using a Synthesis Matrix While Reading",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Before writing, sort your sources into a simple table like the one just shown, organized by theme",
+     "This makes conflicts and gaps visually obvious before you write a single sentence",
+     "It also prevents the 'list of studies' problem \u2014 you're forced to compare, not just record",
+     "Update it as you read new sources; it becomes the skeleton of your literature review paragraph"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 138,
+  "classId": 3,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Identifying the Gap",
+  "partLabel": "PART 3 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 139,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "MOVE 3",
+  "title": "The Gap: The Hinge of Your Introduction",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "The gap is the specific thing that remains unknown, untested, or unresolved after your literature review",
+     "A strong gap statement often starts with 'However,' 'Despite this,' or 'It remains unclear whether...'",
+     "The gap must follow logically from what you just summarized \u2014 it can't come out of nowhere",
+     "A vague gap ('more research is needed') is not a gap \u2014 it's an admission you haven't found one yet"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 140,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TYPES OF GAPS",
+  "title": "Four Common Kinds of Research Gaps",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Population Gap"
+   },
+   {
+    "role": "paragraph",
+    "text": "Studied in one group (e.g., adults) but not another (e.g., adolescents)"
+   },
+   {
+    "role": "subheading",
+    "text": "Conflicting Evidence"
+   },
+   {
+    "role": "paragraph",
+    "text": "Existing studies disagree, and the reason for disagreement is unclear"
+   },
+   {
+    "role": "subheading",
+    "text": "Methodological Gap"
+   },
+   {
+    "role": "paragraph",
+    "text": "Prior studies used weak designs; a stronger method hasn't been applied"
+   },
+   {
+    "role": "subheading",
+    "text": "Contextual Gap"
+   },
+   {
+    "role": "paragraph",
+    "text": "Findings from one setting (e.g., country, era) may not generalize"
+   }
+  ]
+ },
+ {
+  "n": 141,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Vague Gap vs. Real Gap",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "NOT ACTUALLY A GAP"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cFurther research is needed to better understand this topic.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The strong version names exactly who hasn't been studied and why that matters \u2014 a reader immediately understands what your study will add."
+   },
+   {
+    "role": "paragraph",
+    "text": "A GAP YOU CAN ACT ON"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cNo prior study has examined this intervention in adolescents, despite its established efficacy in adults.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 142,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "YOUR TURN",
+  "title": "Draft one sentence naming a gap in a topic you're interested in. Start with 'However,' or 'It remains unclear whether...'",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Write it down \u2014 we'll ask a few volunteers to share"
+   }
+  ]
+ },
+ {
+  "n": 143,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Checking Your Gap Statement",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Does it follow logically from evidence you just cited, or does it appear out of nowhere?",
+     "Is it specific enough that your own study could plausibly close it?",
+     "Would a reader in your field immediately understand why it matters?"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 144,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "MOVE 4",
+  "title": "The Aim: The Narrowest Point of the Funnel",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "State your specific aim, research question, or hypothesis in direct, unambiguous language",
+     "Common openers: 'This study aimed to...', 'We hypothesized that...', 'We tested whether...'",
+     "The aim should map directly onto the gap you just identified \u2014 no surprises",
+     "This is often the very last sentence of your introduction"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 145,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A well-written research aim should:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Introduce a new topic not covered earlier in the introduction"
+   },
+   {
+    "role": "paragraph",
+    "text": "Map directly onto the gap identified just before it"
+   },
+   {
+    "role": "paragraph",
+    "text": "Be broad enough to allow multiple different studies"
+   },
+   {
+    "role": "paragraph",
+    "text": "Be saved for the Discussion section instead"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 146,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A well-written research aim should:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Introduce a new topic not covered earlier in the introduction"
+   },
+   {
+    "role": "paragraph",
+    "text": "Map directly onto the gap identified just before it"
+   },
+   {
+    "role": "paragraph",
+    "text": "Be broad enough to allow multiple different studies"
+   },
+   {
+    "role": "paragraph",
+    "text": "Be saved for the Discussion section instead"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. The funnel only works if the narrowest point (the aim) directly answers the gap that came right before it. A mismatch here is one of the most common introduction weaknesses."
+   }
+  ]
+ },
+ {
+  "n": 147,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "A CLINICAL FRAMEWORK",
+  "title": "PICO: Structuring a Clinical Question",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "P \u2014 Population",
+     "Who is being studied? Be specific about age, condition, setting",
+     "I \u2014 Intervention (or Exposure)",
+     "What is being tested, given, or observed?",
+     "C \u2014 Comparison",
+     "Compared to what \u2014 placebo, standard care, another group?",
+     "O \u2014 Outcome",
+     "What specific outcome are you measuring, and when?"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "PICO is especially useful for clinical and epidemiological research questions \u2014 it forces precision on all four elements at once."
+   }
+  ]
+ },
+ {
+  "n": 148,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "WORKED EXAMPLE",
+  "title": "PICO in Practice",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Element",
+     "This Study"
+    ],
+    "rows": [
+     [
+      "Population",
+      "Adults aged 18\u201340 with newly diagnosed stage 1 hypertension"
+     ],
+     [
+      "Intervention",
+      "8-week structured walking program (30 min, 5x/week)"
+     ],
+     [
+      "Comparison",
+      "Usual care with no structured exercise program"
+     ],
+     [
+      "Outcome",
+      "Change in systolic blood pressure at 8 weeks"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 149,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "YOUR TURN",
+  "title": "Using PICO, sketch a clinical research question in your area of interest. Can you fill in all four elements?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Write it down \u2014 2 minutes, then a few volunteers share"
+   }
+  ]
+ },
+ {
+  "n": 150,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "If a Box Was Hard to Fill In...",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A missing Comparison often means the question isn't yet testable as designed",
+     "A vague Population or Outcome usually means the aim needs to be narrowed further",
+     "PICO is a diagnostic tool as much as a planning one \u2014 gaps in the table reveal gaps in the question"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 151,
+  "classId": 3,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Research Questions & Hypotheses",
+  "partLabel": "PART 4 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 152,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "CHOOSING YOUR LANGUAGE",
+  "title": "Research Question vs. Hypothesis",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Element",
+     "When to Use",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Research question",
+      "Exploratory or descriptive work",
+      "\u201cHow does sleep duration relate to exam performance?\u201d"
+     ],
+     [
+      "Hypothesis",
+      "You can predict a specific direction",
+      "\u201cWe hypothesized that shorter sleep duration is associated with lower exam scores.\u201d"
+     ],
+     [
+      "Aim statement",
+      "Broader studies with multiple objectives",
+      "\u201cThis study aimed to characterize the relationship between sleep and academic outcomes.\u201d"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 153,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Vague Aim vs. Testable Aim",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "NOT TESTABLE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis study aimed to explore issues related to sleep and academic performance.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "A testable aim names the variables, the population, and what relationship you're checking \u2014 anyone could design a study to answer it."
+   },
+   {
+    "role": "paragraph",
+    "text": "TESTABLE AND SPECIFIC"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis study aimed to determine whether average nightly sleep duration predicts final exam scores among second-year students.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 154,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "PEER CHECK",
+  "title": "Trade your gap sentence from earlier with a neighbor. Can they write a matching aim statement from it?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Swap papers \u2014 2 minutes"
+   }
+  ]
+ },
+ {
+  "n": 155,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "If They Struggled to Write an Aim...",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Your gap may be too vague or too broad to act on directly",
+     "Try narrowing it: which population, which variable, which comparison exactly?",
+     "A good test: could someone design a study from your gap statement alone?"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 156,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Null vs. Alternative Hypothesis",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "IMPRECISE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cWe hypothesized that sleep affects academic performance.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "A precise hypothesis names the groups being compared and the expected direction of the effect \u2014 it can be clearly supported or refuted by data."
+   },
+   {
+    "role": "paragraph",
+    "text": "PRECISE AND TESTABLE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cWe hypothesized that students averaging fewer than 6 hours of sleep would score significantly lower on final exams than those averaging 7\u20138 hours.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 157,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "Class 3 \u2014 Key Takeaways",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "The introduction funnels from broad context to a precise aim in four deliberate moves"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "A literature review synthesizes and groups sources \u2014 it doesn't just list them"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "A real gap is specific, follows from the evidence, and is closeable by your study"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Your aim or hypothesis should map directly onto the gap you identified"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   }
+  ]
+ },
+ {
+  "n": 158,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "An introduction should make the reader feel the gap before you ever state your aim.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u2014 A guiding principle for this course"
+   }
+  ]
+ },
+ {
+  "n": 159,
+  "classId": 3,
+  "kind": "content",
+  "eyebrow": "BEFORE NEXT CLASS",
+  "title": "Before Class 4",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Bring these to our next session"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Draft a 4-move introduction outline for your own research interest (context, known, gap, aim)",
+     "Find one published introduction and label its four moves",
+     "Bring one figure or table from a paper you found genuinely easy to understand"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "Next: Class 4 \u2014 Presenting Results and Discussion"
+   }
+  ]
+ },
+ {
+  "n": 160,
+  "classId": 4,
+  "kind": "class-cover",
+  "eyebrow": null,
+  "title": "Presenting Results and Discussion",
+  "partLabel": null,
+  "classLabel": "CLASS 4 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Reporting findings objectively, then interpreting them honestly"
+   }
+  ]
+ },
+ {
+  "n": 161,
+  "classId": 4,
+  "kind": "class-cover",
+  "eyebrow": "Branko Aleksic \u00b7 Dept. of International Medical Education",
+  "title": "Presenting Results and Discussion",
+  "partLabel": null,
+  "classLabel": "CLASS 4 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Reporting findings objectively, then interpreting them honestly"
+   },
+   {
+    "role": "paragraph",
+    "text": "Scientific Writing: Principles and Practice \u00b7 Honours Student Program"
+   }
+  ]
+ },
+ {
+  "n": 162,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "TODAY'S ROADMAP",
+  "title": "What We'll Cover",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Class 1 \u2014 Foundations: purpose, document types, IMRAD structure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 2 \u2014 Writing clear and accurate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 3 \u2014 Building the introduction and literature review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 4 \u2014 Presenting results and discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 5 \u2014 Editing, peer review, and science communication"
+   }
+  ]
+ },
+ {
+  "n": 163,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "TODAY'S FOCUS",
+  "title": "By the End of Today, You Can:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Report results objectively, in a logical order, without interpretation",
+     "Design figures and tables \u2014 and write captions \u2014 that stand on their own",
+     "Build a discussion that interprets, contextualizes, and honestly limits your findings",
+     "Cite sources correctly and avoid the most common forms of plagiarism"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 164,
+  "classId": 4,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Reporting Results Objectively",
+  "partLabel": "PART 1 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 165,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "THE CORE RULE",
+  "title": "Results Report; They Don't Interpret",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "State what was observed \u2014 numbers, directions, statistical significance",
+     "Save every 'this suggests,' 'this proves,' or 'this means' for the Discussion",
+     "Order findings logically: usually primary outcome first, then secondary outcomes",
+     "Every claim needs a number attached \u2014 exact values, confidence intervals, p-values"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 166,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Interpretation Creeping Into Results",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "INTERPRETS TOO EARLY"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe treatment group had fewer complications, demonstrating that the new protocol is safer and should replace the current standard of care.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cDemonstrating\u201d and \u201cshould replace\u201d are judgments \u2014 the Results section reports the numbers and lets the Discussion make the case."
+   },
+   {
+    "role": "paragraph",
+    "text": "STAYS OBJECTIVE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cComplications occurred in 4 of 50 patients (8%) in the treatment group, compared with 12 of 50 (24%) in the control group.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 167,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SORT IT OUT",
+  "title": "\u201cMean recovery time was 3.2 days shorter in the intervention group (95% CI: 1.1\u20135.3, p=0.004).\u201d Is this Results-appropriate, or does it cross into interpretation?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 168,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "This One Stays in Results",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "It reports a measured difference with a confidence interval and p-value \u2014 pure observation",
+     "No claim is made about why, or what it means for practice",
+     "Compare: 'This shorter recovery suggests the intervention accelerates healing' would belong in Discussion"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 169,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Which phrase is most likely to signal that a sentence has drifted from Results into Discussion?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cMean age was 42.3 years (SD 8.1)\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis suggests that older patients respond better\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c15 of 60 participants withdrew before follow-up\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cFigure 2 shows the distribution of scores\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 170,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Which phrase is most likely to signal that a sentence has drifted from Results into Discussion?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cMean age was 42.3 years (SD 8.1)\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis suggests that older patients respond better\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201c15 of 60 participants withdrew before follow-up\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cFigure 2 shows the distribution of scores\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. \u201cSuggests\u201d signals an inference about meaning or cause \u2014 that belongs in the Discussion. The other options simply report observed facts."
+   }
+  ]
+ },
+ {
+  "n": 171,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "A PRACTICAL CHECKLIST",
+  "title": "What a Complete Result Statement Includes",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Element",
+     "Example",
+     "Why It's Needed"
+    ],
+    "rows": [
+     [
+      "Exact value",
+      "\u201cmean = 4.2 mmol/L\u201d",
+      "Lets readers judge the actual magnitude"
+     ],
+     [
+      "Variability",
+      "\u201cSD = 0.8\u201d or \u201c95% CI: 3.9\u20134.5\u201d",
+      "Shows precision, not just a point estimate"
+     ],
+     [
+      "Sample size",
+      "\u201cn = 42\u201d",
+      "Needed to judge statistical power"
+     ],
+     [
+      "Statistical test & p-value",
+      "\u201cp = 0.03, paired t-test\u201d",
+      "Lets readers verify the analysis was appropriate"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 172,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "AN IMPORTANT HABIT",
+  "title": "Reporting Null or Negative Results",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A result showing no significant difference is still a result \u2014 report it with the same rigor as a positive one",
+     "Never omit outcomes just because they didn't reach significance \u2014 this distorts the scientific record",
+     "State the actual finding: 'No significant difference was observed (p=0.34)' rather than implying nothing happened",
+     "Selective reporting of only favorable results is a serious research integrity issue"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 173,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "A STANDARD CONVENTION",
+  "title": "\u201cTable 1\u201d: Reporting Baseline Characteristics",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Most clinical studies open their Results with a table comparing baseline characteristics between groups",
+     "This lets readers judge whether randomization or group selection produced comparable groups",
+     "Typically includes age, sex, and other variables relevant to the outcome being studied",
+     "Differences in Table 1 don't need p-values in most modern guidelines \u2014 describe them narratively instead"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 174,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "ORGANIZATION",
+  "title": "Ordering Your Results Logically",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Lead with the primary outcome \u2014 the result your study was designed to answer",
+     "Follow with secondary outcomes, in the order they were introduced in the Methods",
+     "Group related findings together rather than jumping between topics",
+     "Use subheadings for long Results sections to help readers navigate"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 175,
+  "classId": 4,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Figures, Tables & Captions",
+  "partLabel": "PART 2 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 176,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SHOW, DON'T JUST TELL",
+  "title": "When to Use a Figure vs. a Table",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Use a figure",
+     "To show trends, patterns, distributions, or comparisons visually",
+     "Use a table",
+     "To present precise numbers a reader may want to look up or compare directly",
+     "Never present the exact same data in both a figure and a table \u2014 pick the format that serves the point",
+     "Every figure and table should be understandable before the reader returns to your main text"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 177,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "A SKILL OF ITS OWN",
+  "title": "Writing a Caption That Stands Alone",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A caption should let a reader understand the figure without reading the surrounding paragraph",
+     "Structure: what is shown \u2192 key methodological detail \u2192 how to read any symbols or error bars",
+     "Define every abbreviation used in the figure, even if defined elsewhere in the text",
+     "State the sample size and any statistical test directly in the caption when relevant"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 178,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Weak Caption vs. Strong Caption",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "CAN'T STAND ALONE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cFigure 1. Results of the study.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "The strong caption tells a reader exactly what's plotted, the sample size, and how to interpret the symbols \u2014 no need to hunt through the text."
+   },
+   {
+    "role": "paragraph",
+    "text": "SELF-CONTAINED"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cFigure 1. Mean systolic blood pressure (mmHg) at baseline and 12 weeks by treatment group (n=50 per group). Error bars represent 95% confidence intervals; *p<0.05 vs. control.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 179,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "YOUR TURN",
+  "title": "You have a bar chart comparing 3 groups' average scores, with error bars and one significant comparison marked with an asterisk. Draft a caption for it.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Write one or two sentences \u2014 2 minutes"
+   }
+  ]
+ },
+ {
+  "n": 180,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "What a Strong Caption Includes",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "What is plotted, and the units of measurement",
+     "Sample size for each group",
+     "What the error bars represent (SD, SE, or 95% CI \u2014 they are not interchangeable)",
+     "What the asterisk or symbol means, and the significance threshold used"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 181,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "The same dataset should generally be presented:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "In both a figure and a table, for redundancy"
+   },
+   {
+    "role": "paragraph",
+    "text": "In whichever single format best serves the reader's need"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only in a table, never a figure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only as raw numbers in the text"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 182,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "The same dataset should generally be presented:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "In both a figure and a table, for redundancy"
+   },
+   {
+    "role": "paragraph",
+    "text": "In whichever single format best serves the reader's need"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only in a table, never a figure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only as raw numbers in the text"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Duplicating data across a figure and a table wastes space and reader attention. Choose the format \u2014 visual pattern or precise number lookup \u2014 that matches what the reader needs from that data."
+   }
+  ]
+ },
+ {
+  "n": 183,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "DESIGN PRINCIPLES",
+  "title": "Making Figures Easy to Read",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Legible Labels"
+   },
+   {
+    "role": "paragraph",
+    "text": "Axis labels and units large enough to read at presentation size"
+   },
+   {
+    "role": "subheading",
+    "text": "No Clutter"
+   },
+   {
+    "role": "paragraph",
+    "text": "Remove gridlines, 3D effects, or extra elements that don't add information"
+   },
+   {
+    "role": "subheading",
+    "text": "Purposeful Color"
+   },
+   {
+    "role": "paragraph",
+    "text": "Color encodes meaning, not decoration \u2014 and works in grayscale too"
+   },
+   {
+    "role": "subheading",
+    "text": "Consistent Scale"
+   },
+   {
+    "role": "paragraph",
+    "text": "Axis ranges chosen to represent the data honestly, not exaggerate effects"
+   }
+  ]
+ },
+ {
+  "n": 184,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "A Misleading Axis vs. an Honest One",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "TRUNCATED AXIS"
+   },
+   {
+    "role": "paragraph",
+    "text": "A bar chart starting the y-axis at 90% instead of 0% makes a 2-point difference look like a dramatic gap."
+   },
+   {
+    "role": "paragraph",
+    "text": "Truncated axes are one of the most common ways figures unintentionally \u2014 or intentionally \u2014 mislead readers."
+   },
+   {
+    "role": "paragraph",
+    "text": "FULL, HONEST AXIS"
+   },
+   {
+    "role": "paragraph",
+    "text": "The same chart with a y-axis starting at 0% shows the true, modest size of the difference between groups."
+   }
+  ]
+ },
+ {
+  "n": 185,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SPOT IT",
+  "title": "You see a bar chart with a y-axis that starts at 80 instead of 0, making a small difference look dramatic. What should you, as a careful reader, do?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 186,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Read the Axis Before the Bars",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Always check axis start and end values before judging the size of an effect visually",
+     "Recalculate the real percentage difference from the numbers, not the bar heights",
+     "As an author, this is exactly the habit to build into your own figure design from the start"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 187,
+  "classId": 4,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Building the Discussion",
+  "partLabel": "PART 3 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 188,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "A RELIABLE SHAPE",
+  "title": "Four Moves of a Strong Discussion",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "1. Restate"
+   },
+   {
+    "role": "paragraph",
+    "text": "The main finding, in plain language"
+   },
+   {
+    "role": "subheading",
+    "text": "2. Compare"
+   },
+   {
+    "role": "paragraph",
+    "text": "To prior literature \u2014 agreement or conflict"
+   },
+   {
+    "role": "subheading",
+    "text": "3. Limit"
+   },
+   {
+    "role": "paragraph",
+    "text": "Honest, specific study limitations"
+   },
+   {
+    "role": "subheading",
+    "text": "4. Signify"
+   },
+   {
+    "role": "paragraph",
+    "text": "Why this finding matters going forward"
+   }
+  ]
+ },
+ {
+  "n": 189,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "MOVE 2",
+  "title": "Comparing to Prior Work \u2014 Honestly",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "State clearly whether your finding agrees or disagrees with previous studies",
+     "When results conflict with prior work, propose a plausible reason \u2014 don't just note the conflict",
+     "Avoid cherry-picking only the studies that support your conclusion",
+     "This is where your literature review from Class 3 pays off \u2014 you already know the landscape"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 190,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "MOVE 3",
+  "title": "What Counts as a Real Limitation",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Sample"
+   },
+   {
+    "role": "paragraph",
+    "text": "Small size, single site, or a population that limits generalizability"
+   },
+   {
+    "role": "subheading",
+    "text": "Design"
+   },
+   {
+    "role": "paragraph",
+    "text": "Observational design, no control group, or short follow-up"
+   },
+   {
+    "role": "subheading",
+    "text": "Measurement"
+   },
+   {
+    "role": "paragraph",
+    "text": "Imperfect tools, self-report bias, or missing data"
+   },
+   {
+    "role": "subheading",
+    "text": "Confounding"
+   },
+   {
+    "role": "paragraph",
+    "text": "Variables you couldn't fully control or measure"
+   }
+  ]
+ },
+ {
+  "n": 191,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Weak Limitation vs. Honest Limitation",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "TOO VAGUE TO BE USEFUL"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis study has some limitations that should be considered.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "A vague limitation statement signals the author hasn't seriously considered the study's weaknesses \u2014 reviewers notice this immediately."
+   },
+   {
+    "role": "paragraph",
+    "text": "SPECIFIC AND HONEST"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis single-center study enrolled only 45 participants, which may limit generalizability to broader populations.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 192,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "Why might a researcher be tempted to hide or minimize a study's limitations? What's the risk of doing that?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 193,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Honesty Builds Credibility",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Reviewers and readers will find weaknesses whether or not you name them \u2014 naming them first shows rigor",
+     "Hidden limitations that surface later can undermine trust in your entire paper",
+     "A well-stated limitation often strengthens a paper \u2014 it shows you understand your own evidence"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 194,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Which of these is the strongest limitation statement?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cThere may be some limitations to this work.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cOur study, like all studies, is not perfect.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cBecause participants self-reported diet, recall bias may have affected accuracy.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cLimitations are discussed elsewhere.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 195,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Which of these is the strongest limitation statement?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u201cThere may be some limitations to this work.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cOur study, like all studies, is not perfect.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cBecause participants self-reported diet, recall bias may have affected accuracy.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cLimitations are discussed elsewhere.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: C. It names the specific source of bias (self-report) and its likely effect (recall bias, accuracy) \u2014 precise enough that a reader can judge how much it matters."
+   }
+  ]
+ },
+ {
+  "n": 196,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "MOVE 4",
+  "title": "Closing the Discussion: Significance",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Clinical Relevance"
+   },
+   {
+    "role": "paragraph",
+    "text": "How might this change practice, if it holds up?"
+   },
+   {
+    "role": "subheading",
+    "text": "Scientific Relevance"
+   },
+   {
+    "role": "paragraph",
+    "text": "What does it add to the theoretical picture?"
+   },
+   {
+    "role": "subheading",
+    "text": "Future Directions"
+   },
+   {
+    "role": "paragraph",
+    "text": "What specific next study would extend this work?"
+   }
+  ]
+ },
+ {
+  "n": 197,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A strong closing to a Discussion section should generally:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Introduce new results not mentioned earlier"
+   },
+   {
+    "role": "paragraph",
+    "text": "Repeat the abstract word for word"
+   },
+   {
+    "role": "paragraph",
+    "text": "State the finding's significance and plausible next steps"
+   },
+   {
+    "role": "paragraph",
+    "text": "End abruptly after the limitations"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 198,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A strong closing to a Discussion section should generally:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Introduce new results not mentioned earlier"
+   },
+   {
+    "role": "paragraph",
+    "text": "Repeat the abstract word for word"
+   },
+   {
+    "role": "paragraph",
+    "text": "State the finding's significance and plausible next steps"
+   },
+   {
+    "role": "paragraph",
+    "text": "End abruptly after the limitations"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: C. Readers should leave the Discussion understanding not just what you found and its limits, but why it matters and where the field might go next."
+   }
+  ]
+ },
+ {
+  "n": 199,
+  "classId": 4,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Citation & Avoiding Plagiarism",
+  "partLabel": "PART 4 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 200,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "GIVING CREDIT",
+  "title": "Why Careful Citation Matters",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Citations let readers verify your claims and trace the evidence you built on",
+     "Under-citing implies an idea is yours when it isn't \u2014 even unintentionally, this is a serious issue",
+     "Over-citing common knowledge clutters the text and dilutes citations that truly matter",
+     "Follow your target journal's citation style consistently from your very first draft"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 201,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "KNOW THE BOUNDARIES",
+  "title": "Three Common Forms of Plagiarism",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Direct Copying"
+   },
+   {
+    "role": "paragraph",
+    "text": "Using another author's exact words without quotation marks and citation"
+   },
+   {
+    "role": "subheading",
+    "text": "Patchwriting"
+   },
+   {
+    "role": "paragraph",
+    "text": "Swapping a few words in someone else's sentence while keeping its structure"
+   },
+   {
+    "role": "subheading",
+    "text": "Self-Plagiarism"
+   },
+   {
+    "role": "paragraph",
+    "text": "Reusing your own previously published text without disclosure"
+   }
+  ]
+ },
+ {
+  "n": 202,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Patchwriting vs. Genuine Paraphrase",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "PATCHWRITING"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cOriginal: 'Exercise reduces the risk of cardiovascular disease in older adults.' Patchwrite: 'Physical activity lowers the risk of heart disease in elderly people.'\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Patchwriting keeps the original sentence structure with synonyms swapped in \u2014 that's still considered plagiarism. Real paraphrase reconstructs the idea in your own sentence, with a citation."
+   },
+   {
+    "role": "paragraph",
+    "text": "GENUINE PARAPHRASE + CITATION"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cRegular physical activity is a well-established protective factor against cardiovascular disease in aging populations (Author, Year).\u201d"
+   }
+  ]
+ },
+ {
+  "n": 203,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "You want to use a striking sentence from a paper almost word-for-word. What are your two honest options?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor"
+   }
+  ]
+ },
+ {
+  "n": 204,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Two Honest Options",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Quote it directly, in quotation marks, with a citation \u2014 used sparingly in scientific writing",
+     "Paraphrase it fully in your own sentence structure and vocabulary, with a citation",
+     "What's not an option: changing a few words while keeping the original structure and calling it your own"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 205,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Reusing a paragraph you wrote in a previous paper, without citation, in a new manuscript is:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Always acceptable since you wrote it"
+   },
+   {
+    "role": "paragraph",
+    "text": "A form of self-plagiarism that should be avoided or properly disclosed"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only a problem if someone else notices"
+   },
+   {
+    "role": "paragraph",
+    "text": "Required practice for consistency"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 206,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Reusing a paragraph you wrote in a previous paper, without citation, in a new manuscript is:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Always acceptable since you wrote it"
+   },
+   {
+    "role": "paragraph",
+    "text": "A form of self-plagiarism that should be avoided or properly disclosed"
+   },
+   {
+    "role": "paragraph",
+    "text": "Only a problem if someone else notices"
+   },
+   {
+    "role": "paragraph",
+    "text": "Required practice for consistency"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Journals consider undisclosed text reuse a form of self-plagiarism, even from your own prior work \u2014 publishers hold copyright, and readers assume new text is newly written."
+   }
+  ]
+ },
+ {
+  "n": 207,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "STAYING ORGANIZED",
+  "title": "Building Good Citation Habits Early",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Save the full citation the moment you read a source \u2014 don't rely on finding it again later",
+     "Use reference management software consistently so in-text citations and the reference list stay synchronized",
+     "Double-check every automatically generated citation \u2014 software occasionally introduces errors",
+     "Keep a short note on why each source matters; it saves enormous time when drafting"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 208,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "Class 4 \u2014 Key Takeaways",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Results report objectively; save interpretation entirely for the Discussion"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Figures and tables \u2014 and their captions \u2014 should stand alone without the main text"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "A strong Discussion restates, compares, honestly limits, and signifies your findings"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Cite carefully: genuine paraphrase and clear attribution protect your credibility"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   }
+  ]
+ },
+ {
+  "n": 209,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "A limitation stated plainly is a strength; a limitation hidden is a liability waiting to be found.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u2014 A guiding principle for this course"
+   }
+  ]
+ },
+ {
+  "n": 210,
+  "classId": 4,
+  "kind": "content",
+  "eyebrow": "BEFORE NEXT CLASS",
+  "title": "Before Class 5",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Bring these to our next session"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Draft a Results paragraph (real or hypothetical data) with zero interpretive language",
+     "Write one figure caption that could stand completely on its own",
+     "List two honest limitations for a study you're planning or reading about"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "Next: Class 5 \u2014 Editing, Peer Review, and Beyond"
+   }
+  ]
+ },
+ {
+  "n": 211,
+  "classId": 5,
+  "kind": "class-cover",
+  "eyebrow": null,
+  "title": "Editing, Peer Review, and Beyond",
+  "partLabel": null,
+  "classLabel": "CLASS 5 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Revising your own work, responding to reviewers, and reaching wider audiences"
+   }
+  ]
+ },
+ {
+  "n": 212,
+  "classId": 5,
+  "kind": "class-cover",
+  "eyebrow": "Branko Aleksic \u00b7 Dept. of International Medical Education",
+  "title": "Editing, Peer Review, and Beyond",
+  "partLabel": null,
+  "classLabel": "CLASS 5 OF 5",
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Revising your own work, responding to reviewers, and reaching wider audiences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Scientific Writing: Principles and Practice \u00b7 Honours Student Program"
+   }
+  ]
+ },
+ {
+  "n": 213,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "TODAY'S ROADMAP",
+  "title": "What We'll Cover",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Class 1 \u2014 Foundations: purpose, document types, IMRAD structure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 2 \u2014 Writing clear and accurate sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 3 \u2014 Building the introduction and literature review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 4 \u2014 Presenting results and discussion"
+   },
+   {
+    "role": "paragraph",
+    "text": "Class 5 \u2014 Editing, peer review, and science communication"
+   }
+  ]
+ },
+ {
+  "n": 214,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "TODAY'S FOCUS",
+  "title": "By the End of Today, You Can:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Self-edit a draft systematically, at the structure, paragraph, and sentence level",
+     "Give and receive peer feedback that actually improves a manuscript",
+     "Understand the peer review process and respond to reviewer comments professionally",
+     "Translate technical findings into a plain-language summary for non-expert audiences"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 215,
+  "classId": 5,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Self-Editing Your Draft",
+  "partLabel": "PART 1 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 216,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A DIFFERENT MINDSET",
+  "title": "Editing Is Not Proofreading",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Proofreading catches typos and grammar errors \u2014 the very last step",
+     "Editing questions structure, logic, and clarity \u2014 it happens much earlier, and repeatedly",
+     "Never edit and draft at the same time \u2014 finish a rough draft first, then revise in passes",
+     "Expect to revise a paper many times; even experienced researchers do"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 217,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "WORK TOP-DOWN",
+  "title": "Three Editing Passes, in Order",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "1. Structure"
+   },
+   {
+    "role": "paragraph",
+    "text": "Are sections and paragraphs in a logical order?"
+   },
+   {
+    "role": "subheading",
+    "text": "2. Paragraph"
+   },
+   {
+    "role": "paragraph",
+    "text": "Does each have one clear topic sentence?"
+   },
+   {
+    "role": "subheading",
+    "text": "3. Sentence"
+   },
+   {
+    "role": "paragraph",
+    "text": "Is every sentence clear, active, and free of redundancy?"
+   }
+  ]
+ },
+ {
+  "n": 218,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "PRACTICAL TECHNIQUES",
+  "title": "Tricks That Reveal Hidden Problems",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Read it aloud",
+     "Awkward phrasing is much easier to hear than to see",
+     "Set it aside for a day",
+     "Distance makes your own errors visible again",
+     "Read only the topic sentences of every paragraph in order",
+     "This should reveal the paper's argument on its own",
+     "Reverse outline your draft",
+     "Write down what each paragraph actually does \u2014 compare it to what you intended"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 219,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "TRY IT",
+  "title": "Take a paragraph you wrote recently (for this course or elsewhere). Read only its first sentence. Does it predict what follows?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Check silently \u2014 we'll discuss patterns as a group"
+   }
+  ]
+ },
+ {
+  "n": 220,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "What This Reveals",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "If the first sentence doesn't predict the paragraph, the topic sentence may be missing or buried",
+     "If you can't summarize the paragraph's point in one phrase, it may be carrying too many ideas",
+     "This 'topic sentence test' is one of the fastest structural edits you can run"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 221,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "Which editing pass should generally happen first?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Sentence-level grammar and word choice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Structure and overall logical order"
+   },
+   {
+    "role": "paragraph",
+    "text": "Formatting the reference list"
+   },
+   {
+    "role": "paragraph",
+    "text": "Checking figure resolution"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 222,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "Which editing pass should generally happen first?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Sentence-level grammar and word choice"
+   },
+   {
+    "role": "paragraph",
+    "text": "Structure and overall logical order"
+   },
+   {
+    "role": "paragraph",
+    "text": "Formatting the reference list"
+   },
+   {
+    "role": "paragraph",
+    "text": "Checking figure resolution"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Polishing sentences in a section that later gets deleted or moved wastes effort. Fix structure first, then paragraphs, then sentences \u2014 working top-down saves time."
+   }
+  ]
+ },
+ {
+  "n": 223,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A PRACTICAL TOOL",
+  "title": "A Three-Pass Self-Editing Checklist",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Pass",
+     "Ask Yourself",
+     "Tool"
+    ],
+    "rows": [
+     [
+      "Structure",
+      "Does each section do its IMRAD job, in order?",
+      "Reverse outline"
+     ],
+     [
+      "Paragraph",
+      "Does each paragraph have one clear topic sentence?",
+      "Topic-sentence test"
+     ],
+     [
+      "Sentence",
+      "Is every sentence active, precise, and non-redundant?",
+      "Read-aloud pass"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 224,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "USING TECHNOLOGY WISELY",
+  "title": "Editing Tools: Helpful, Not a Replacement",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Grammar and style checkers catch typos and basic errors \u2014 useful, but not a substitute for structural editing",
+     "AI writing tools can help you brainstorm phrasing, but you remain responsible for accuracy and originality",
+     "Never let a tool rewrite technical claims without verifying they still say exactly what you mean",
+     "The three-pass checklist above is something no automated tool can fully do for you"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 225,
+  "classId": 5,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Giving and Receiving Peer Feedback",
+  "partLabel": "PART 2 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 226,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "AS A REVIEWER",
+  "title": "Giving Feedback That Actually Helps",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Start with what's working \u2014 it orients the writer and isn't just politeness",
+     "Be specific: 'this paragraph has two ideas' beats 'this is unclear'",
+     "Distinguish major issues (structure, logic, missing evidence) from minor ones (wording, typos)",
+     "Ask questions rather than issuing commands \u2014 it respects the writer's ownership of the text"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 227,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Unhelpful Feedback vs. Actionable Feedback",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "VAGUE AND UNACTIONABLE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis section is confusing. Please fix it.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Actionable feedback names the specific problem and points toward a specific fix, without rewriting the sentence for the author."
+   },
+   {
+    "role": "paragraph",
+    "text": "SPECIFIC AND ACTIONABLE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThis paragraph moves between the sample and the outcome measure without a clear transition \u2014 consider splitting it into two paragraphs.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 228,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "How does it feel to receive feedback that's just \u201cthis is unclear\u201d versus feedback that names exactly what's unclear?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 229,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Good Feedback Respects the Writer",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Vague feedback creates anxiety without giving a path forward",
+     "Specific feedback feels collaborative, even when it points out a real problem",
+     "As you review classmates' drafts later this term, aim for feedback you'd want to receive yourself"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 230,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "AS THE AUTHOR",
+  "title": "Receiving Feedback Without Getting Defensive",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Read all feedback once fully before reacting to any single comment",
+     "Assume good intent \u2014 a reviewer's job is to strengthen your paper, not attack you",
+     "You don't have to agree with every comment, but you should understand why it was made",
+     "If a comment is confusing, ask a clarifying question rather than guessing"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 231,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "The most useful peer feedback tends to be:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "General praise, to keep morale up"
+   },
+   {
+    "role": "paragraph",
+    "text": "Specific, tied to a location in the text, and actionable"
+   },
+   {
+    "role": "paragraph",
+    "text": "A full rewrite of the author's sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Focused only on grammar and spelling"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 232,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "The most useful peer feedback tends to be:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "General praise, to keep morale up"
+   },
+   {
+    "role": "paragraph",
+    "text": "Specific, tied to a location in the text, and actionable"
+   },
+   {
+    "role": "paragraph",
+    "text": "A full rewrite of the author's sentences"
+   },
+   {
+    "role": "paragraph",
+    "text": "Focused only on grammar and spelling"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Feedback that names a specific location and a specific issue lets the author actually act on it \u2014 vague praise or vague criticism both leave the writer guessing."
+   }
+  ]
+ },
+ {
+  "n": 233,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A USEFUL STRUCTURE",
+  "title": "Organizing Feedback You Give",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Open with one or two genuine strengths \u2014 this isn't padding, it tells the writer what to keep",
+     "Group remaining comments by priority: structural issues first, then paragraph-level, then sentence-level",
+     "Limit yourself to the 3-5 most important issues rather than marking every possible improvement",
+     "Close by naming the single change that would most improve the draft if the writer only had time for one"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 234,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "PRACTICE ROUND",
+  "title": "Imagine a classmate's introduction has a strong opening but never clearly states a gap or aim. How would you phrase that feedback?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Draft one or two sentences of feedback \u2014 2 minutes"
+   }
+  ]
+ },
+ {
+  "n": 235,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "A Model Response",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cYour opening effectively establishes why this topic matters. The introduction would be stronger with an explicit gap statement \u2014 right now it moves from background straight to your methods.\u201d",
+     "Notice: names what works, names the specific structural issue, and points to where it's missing",
+     "This is feedback the writer can act on immediately"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 236,
+  "classId": 5,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Navigating Journal Peer Review",
+  "partLabel": "PART 3 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 237,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "WHAT HAPPENS AFTER SUBMISSION",
+  "title": "The Journal Review Pipeline",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Submit"
+   },
+   {
+    "role": "paragraph",
+    "text": "Manuscript enters the editorial system"
+   },
+   {
+    "role": "subheading",
+    "text": "Editor Screen"
+   },
+   {
+    "role": "paragraph",
+    "text": "Checked for fit and basic quality"
+   },
+   {
+    "role": "subheading",
+    "text": "Peer Review"
+   },
+   {
+    "role": "paragraph",
+    "text": "2\u20133 experts evaluate rigor and importance"
+   },
+   {
+    "role": "subheading",
+    "text": "Decision"
+   },
+   {
+    "role": "paragraph",
+    "text": "Accept, revise, or reject"
+   },
+   {
+    "role": "subheading",
+    "text": "Revision"
+   },
+   {
+    "role": "paragraph",
+    "text": "You respond to reviewer comments"
+   }
+  ]
+ },
+ {
+  "n": 238,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "KNOW WHAT TO EXPECT",
+  "title": "Common Editorial Decisions",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Accept"
+   },
+   {
+    "role": "paragraph",
+    "text": "Rare on a first submission \u2014 the paper needs no further changes"
+   },
+   {
+    "role": "subheading",
+    "text": "Major Revision"
+   },
+   {
+    "role": "paragraph",
+    "text": "Substantial changes needed; resubmission will be re-reviewed"
+   },
+   {
+    "role": "subheading",
+    "text": "Minor Revision"
+   },
+   {
+    "role": "paragraph",
+    "text": "Small, clearly specified changes requested"
+   },
+   {
+    "role": "subheading",
+    "text": "Reject"
+   },
+   {
+    "role": "paragraph",
+    "text": "Not a fit for this journal, or fundamental issues found"
+   }
+  ]
+ },
+ {
+  "n": 239,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "RESPONDING PROFESSIONALLY",
+  "title": "Writing a Response to Reviewers",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Address every single comment, even ones you disagree with \u2014 silence reads as avoidance",
+     "Structure your response point by point, quoting the original comment before your reply",
+     "When you disagree, explain your reasoning respectfully and with evidence \u2014 you can push back",
+     "Clearly state what changed in the manuscript, and where (e.g., 'Added to Discussion, paragraph 2')"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 240,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "SPOT THE PROBLEM",
+  "title": "Defensive vs. Professional Response",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "DEFENSIVE"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cThe reviewer clearly did not read our manuscript carefully. This point is already obvious.\u201d"
+   },
+   {
+    "role": "paragraph",
+    "text": "Even a frustrating comment deserves a measured, constructive reply \u2014 editors read these exchanges closely."
+   },
+   {
+    "role": "paragraph",
+    "text": "PROFESSIONAL"
+   },
+   {
+    "role": "paragraph",
+    "text": "\u201cWe thank the reviewer for this comment. We have clarified this point in the Methods (page 4, paragraph 2) to avoid ambiguity.\u201d"
+   }
+  ]
+ },
+ {
+  "n": 241,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "A reviewer asks you to run an additional analysis you believe is unnecessary. How would you respond, in principle?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 242,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "You Can Disagree \u2014 Respectfully",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Explain clearly why you believe the analysis isn't necessary, with reasoning or evidence",
+     "Offer an alternative if one exists (e.g., a sensitivity analysis instead)",
+     "If the reviewer's concern is valid but the specific request isn't, address the underlying concern"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 243,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "When you disagree with a reviewer's comment, the best approach is to:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Ignore the comment in your response"
+   },
+   {
+    "role": "paragraph",
+    "text": "State your disagreement with clear reasoning and remain respectful"
+   },
+   {
+    "role": "paragraph",
+    "text": "Argue that the reviewer is unqualified"
+   },
+   {
+    "role": "paragraph",
+    "text": "Withdraw the manuscript"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 244,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "When you disagree with a reviewer's comment, the best approach is to:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Ignore the comment in your response"
+   },
+   {
+    "role": "paragraph",
+    "text": "State your disagreement with clear reasoning and remain respectful"
+   },
+   {
+    "role": "paragraph",
+    "text": "Argue that the reviewer is unqualified"
+   },
+   {
+    "role": "paragraph",
+    "text": "Withdraw the manuscript"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. Editors expect authors to sometimes disagree with reviewers \u2014 what matters is that the disagreement is reasoned, evidence-based, and professionally worded."
+   }
+  ]
+ },
+ {
+  "n": 245,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A USEFUL TEMPLATE",
+  "title": "Structuring a Response Letter",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "table",
+    "header": [
+     "Element",
+     "Purpose"
+    ],
+    "rows": [
+     [
+      "Reviewer comment (quoted)",
+      "Shows exactly what you're responding to"
+     ],
+     [
+      "Your response",
+      "States agreement/disagreement and reasoning"
+     ],
+     [
+      "Manuscript change",
+      "States exactly where and what was revised"
+     ],
+     [
+      "Tone throughout",
+      "Thankful, concise, and professional \u2014 even under criticism"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "n": 246,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A GROWING PRACTICE",
+  "title": "Preprints: Sharing Before Formal Review",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A preprint is a manuscript shared publicly before (or alongside) formal peer review",
+     "Speeds up sharing of findings, invites early feedback, and establishes priority of discovery",
+     "Clearly labeled as not yet peer-reviewed \u2014 readers should treat conclusions cautiously",
+     "Check your target journal's policy on preprints before posting, though most major journals now allow it"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 247,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A WORD OF CAUTION",
+  "title": "Recognizing Predatory Journals",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "No Real Review"
+   },
+   {
+    "role": "paragraph",
+    "text": "Accepts almost anything quickly, with little genuine peer review"
+   },
+   {
+    "role": "subheading",
+    "text": "Fee-Driven"
+   },
+   {
+    "role": "paragraph",
+    "text": "Aggressively solicits submissions and charges high, mandatory fees"
+   },
+   {
+    "role": "subheading",
+    "text": "Poor Indexing"
+   },
+   {
+    "role": "paragraph",
+    "text": "Not indexed in reputable databases like PubMed or Scopus"
+   }
+  ]
+ },
+ {
+  "n": 248,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "TURN & TALK",
+  "title": "You receive an email inviting you to submit to a journal you've never heard of, promising publication within 5 days. What would you check before submitting?",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Discuss with a neighbor \u2014 90 seconds"
+   }
+  ]
+ },
+ {
+  "n": 249,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "Red Flags Worth Checking",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Is the journal indexed in PubMed, Scopus, or Web of Science?",
+     "Does it have a genuine editorial board with identifiable, reachable experts?",
+     "Is peer review timeline realistic \u2014 genuine review almost never takes days?",
+     "When in doubt, ask your supervisor or check a journal evaluation tool before submitting"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 250,
+  "classId": 5,
+  "kind": "divider",
+  "eyebrow": null,
+  "title": "Communicating Beyond the Paper",
+  "partLabel": "PART 4 OF 4",
+  "classLabel": null,
+  "body": []
+ },
+ {
+  "n": 251,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "A DIFFERENT AUDIENCE",
+  "title": "Why Plain-Language Summaries Matter",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Patients, funders, journalists, and policymakers rarely read the full paper \u2014 they read a summary",
+     "Many journals and funding bodies now require a plain-language summary alongside the abstract",
+     "This is not 'dumbing down' \u2014 it's translating precisely, without jargon, for a different expert: the reader",
+     "Practicing this skill also sharpens how well you understand your own findings"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 252,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "SAME FINDING, TWO AUDIENCES",
+  "title": "Technical Abstract vs. Plain-Language Summary",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Technical Abstract"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cAn 8-week aerobic exercise intervention significantly reduced systolic blood pressure (\u22128.2 mmHg, 95% CI: \u221211.4 to \u22125.0, p<0.001) in adults with stage 1 hypertension.\u201d",
+     "Assumes statistical literacy and field-specific vocabulary"
+    ]
+   },
+   {
+    "role": "subheading",
+    "text": "Plain-Language Summary"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cAdults with mildly high blood pressure who walked briskly for 30 minutes, most days, for 8 weeks saw a meaningful drop in their blood pressure.\u201d",
+     "Keeps the key finding, drops the statistics and jargon"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 253,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "YOUR TURN",
+  "title": "Take the sentence: \u201cThe intervention group demonstrated a statistically significant reduction in HbA1c (\u22120.6%, p=0.02) relative to controls.\u201d Write a one-sentence plain-language version.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Draft it on paper \u2014 2 minutes"
+   }
+  ]
+ },
+ {
+  "n": 254,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LET'S COMPARE NOTES",
+  "title": "A Plain-Language Attempt",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "\u201cPeople who received the treatment had noticeably better blood sugar control than those who didn't.\u201d",
+     "Notice what's gone: the exact percentage, the p-value, the technical outcome name",
+     "What stayed: the direction of the effect and who it applied to \u2014 the parts a general reader actually needs"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 255,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "QUICK CHECK",
+  "title": "A plain-language summary should generally:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Include every statistic from the abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Preserve the key finding while removing jargon and statistics"
+   },
+   {
+    "role": "paragraph",
+    "text": "Be written before the technical abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Replace the need for a full abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Vote with a show of hands when prompted"
+   }
+  ]
+ },
+ {
+  "n": 256,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "ANSWER",
+  "title": "A plain-language summary should generally:",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Include every statistic from the abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Preserve the key finding while removing jargon and statistics"
+   },
+   {
+    "role": "paragraph",
+    "text": "Be written before the technical abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Replace the need for a full abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Correct answer: B. The goal is precise translation, not simplification that loses meaning \u2014 keep the true finding and its real-world implication, and let the technical detail go."
+   }
+  ]
+ },
+ {
+  "n": 257,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "ANOTHER CHANNEL",
+  "title": "Communicating Research on Social Media",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "A growing number of researchers share findings via short posts or threads on academic social platforms",
+     "The same principle applies as with plain-language summaries: precise translation, not oversimplification",
+     "Never claim more certainty in a post than your actual evidence supports \u2014 this is where overreach spreads fastest",
+     "Link back to the original paper so interested readers can verify the full context"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 258,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "FULL CIRCLE",
+  "title": "One Finding, Four Audiences",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Full Paper"
+   },
+   {
+    "role": "paragraph",
+    "text": "Complete technical detail for expert peers"
+   },
+   {
+    "role": "subheading",
+    "text": "Abstract"
+   },
+   {
+    "role": "paragraph",
+    "text": "Condensed technical summary for quick scanning"
+   },
+   {
+    "role": "subheading",
+    "text": "Plain-Language Summary"
+   },
+   {
+    "role": "paragraph",
+    "text": "Key finding, no jargon, for the public"
+   },
+   {
+    "role": "subheading",
+    "text": "Social Post"
+   },
+   {
+    "role": "paragraph",
+    "text": "One clear sentence, linked back to the source"
+   }
+  ]
+ },
+ {
+  "n": 259,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "LOOKING AHEAD",
+  "title": "Scientific Writing Is a Lifelong Skill",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "bullets",
+    "items": [
+     "Every skill from this course \u2014 structure, clarity, honest interpretation, careful revision \u2014 applies far beyond a single paper",
+     "You'll use it in grant applications, clinical documentation, and every future manuscript",
+     "The habits (one idea per sentence, funnel introductions, objective results) get faster with practice, not easier to skip",
+     "Your assignments for this course are a chance to practice all of it on work that matters to you"
+    ]
+   }
+  ]
+ },
+ {
+  "n": 260,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "Class 5 \u2014 Key Takeaways",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Edit in passes \u2014 structure, then paragraphs, then sentences \u2014 never all at once"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Give feedback that's specific and actionable; receive it with curiosity, not defensiveness"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Respond to peer reviewers point by point, professionally, even when you disagree"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   },
+   {
+    "role": "paragraph",
+    "text": "Plain-language summaries translate your findings precisely for a different audience"
+   },
+   {
+    "role": "subheading",
+    "text": "\u2713"
+   }
+  ]
+ },
+ {
+  "n": 261,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "5",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "subheading",
+    "text": "Classes Complete"
+   },
+   {
+    "role": "paragraph",
+    "text": "From IMRAD structure to peer review \u2014 you now have a full toolkit for scientific writing"
+   }
+  ]
+ },
+ {
+  "n": 262,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": null,
+  "title": "The best scientific writers are not the ones who get it right the first time \u2014 they are the ones who revise the most honestly.",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "\u2014 A guiding principle for this course"
+   }
+  ]
+ },
+ {
+  "n": 263,
+  "classId": 5,
+  "kind": "content",
+  "eyebrow": "BEFORE NEXT CLASS",
+  "title": "Course Complete \u2014 What's Next",
+  "partLabel": null,
+  "classLabel": null,
+  "body": [
+   {
+    "role": "paragraph",
+    "text": "Carrying these skills forward"
+   },
+   {
+    "role": "bullets",
+    "items": [
+     "Complete your final short writing assignment, applying all five classes",
+     "Exchange drafts with a classmate for structured peer review",
+     "Revisit your Class 1 sample article \u2014 try re-labeling it with everything you now know"
+    ]
+   },
+   {
+    "role": "paragraph",
+    "text": "Next: Thank you for an engaged and thoughtful five sessions"
+   }
+  ]
+ }
+]
