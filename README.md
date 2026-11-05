@@ -8,8 +8,10 @@ instructor gets a password-protected dashboard showing everyone's progress.
 
 ## What's in it
 
-- **Follow along** — every slide from the deck, in order, with next/back
-  navigation, arrow-key and swipe support, and a progress bar per class.
+- **Follow along** — the deck's slides in order (241 student-facing slides; the 22
+  "Answer" slides are left out so students can't see answers ahead of the quiz),
+  with next/back navigation, arrow-key and swipe support, and a progress bar
+  per class.
 - **Quizzes** — 4–5 multiple-choice questions per class, pulled directly from
   the course's own Quick Check / Answer slides.
 - **Writing tasks** — one short task per class, grounded in exercises already
@@ -24,7 +26,9 @@ instructor gets a password-protected dashboard showing everyone's progress.
   and let them pick up where they left off on another device).
 - **Tutor dashboard** (`/tutor`) — password-protected. Shows the roster with
   each student's slides-viewed and quiz scores per class, every writing
-  submission (expandable), and a read-only view of each class's chat. Has a
+  submission (expandable), and a read-only view of each class's chat. The page
+  refreshes itself every 10 seconds while the tab is visible (with Pause and
+  Refresh-now controls), so you can leave it open during class. Has a
   "Danger zone" to permanently wipe all student data in one type-to-confirm
   action — use it once, right before real students start, to clear out any
   test accounts.
@@ -49,7 +53,8 @@ lib/
   ProgressProvider.js             Client-side auth/progress state, synced to the server
   storage.js                      localStorage cache (instant UX, works offline)
 data/
-  slides.json                    All 263 slides, extracted from the course PowerPoint
+  slides.json                    241 student-facing slides (answer slides removed)
+  slideCounts.json               Per-class slide counts -- regenerate together with slides.json
   quizzes.json                    22 quiz questions extracted from the Quick Check slides
   writingTasks.js                 The five writing task prompts
   classes.js                      The five classes' titles, blurbs, and slide ranges

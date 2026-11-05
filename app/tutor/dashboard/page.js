@@ -12,6 +12,7 @@ import {
 import { CLASSES, slideCount } from '../../../data/classes';
 import TutorLogoutButton from '../../../components/TutorLogoutButton';
 import ResetDataButton from '../../../components/ResetDataButton';
+import AutoRefresh from '../../../components/AutoRefresh';
 
 export const dynamic = 'force-dynamic';
 
@@ -51,7 +52,10 @@ export default async function TutorDashboardPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">Instructor</p>
           <h1 className="mt-1 font-serif text-3xl font-semibold text-ink">Tutor Dashboard</h1>
         </div>
-        <TutorLogoutButton />
+        <div className="flex flex-col items-end gap-1.5">
+          <TutorLogoutButton />
+          <AutoRefresh />
+        </div>
       </div>
 
       {!isDbConfigured() && (
