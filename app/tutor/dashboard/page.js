@@ -46,13 +46,13 @@ export default async function TutorDashboardPage() {
   for (const c of CLASSES) writingByClass[c.id] = allWriting.filter((w) => w.classId === c.id);
 
   return (
-    <div className="mx-auto max-w-5xl px-5 pb-24 pt-8">
-      <div className="mb-8 flex items-center justify-between">
+    <div className="mx-auto max-w-5xl px-4 pb-24 pt-6 sm:px-5 sm:pt-8">
+      <div className="mb-6 flex flex-col gap-2 sm:mb-8 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">Instructor</p>
           <h1 className="mt-1 font-serif text-3xl font-semibold text-ink">Tutor Dashboard</h1>
         </div>
-        <div className="flex flex-col items-end gap-1.5">
+        <div className="flex flex-col items-start gap-0 sm:items-end">
           <TutorLogoutButton />
           <AutoRefresh />
         </div>
@@ -74,10 +74,10 @@ export default async function TutorDashboardPage() {
         </p>
 
         <div className="mt-4 overflow-x-auto rounded-lg border border-line">
-          <table className="w-full min-w-[640px] border-collapse text-left text-sm">
+          <table className="w-full min-w-[620px] border-collapse text-left text-sm">
             <thead>
               <tr className="bg-paper">
-                <th className="px-4 py-2.5 font-semibold text-ink">Student</th>
+                <th className="sticky left-0 z-10 border-r border-line bg-paper px-3 py-2.5 font-semibold text-ink sm:px-4">Student</th>
                 {CLASSES.map((c) => (
                   <th key={c.id} className="px-4 py-2.5 font-semibold text-ink">
                     Class {c.id}
@@ -95,7 +95,7 @@ export default async function TutorDashboardPage() {
               )}
               {students.map((s, i) => (
                 <tr key={s.id} className={i % 2 ? 'bg-card' : 'bg-paper/60'}>
-                  <td className="border-t border-line px-4 py-2.5 font-medium text-ink">{s.name}</td>
+                  <td className={`sticky left-0 z-10 border-r border-t border-line px-3 py-2.5 font-medium text-ink sm:px-4 ${i % 2 ? 'bg-card' : 'bg-paper'}`}>{s.name}</td>
                   {CLASSES.map((c) => {
                     const prog = progressLookup[`${s.id}:${c.id}`];
                     const quiz = quizLookup[`${s.id}:${c.id}`];

@@ -58,8 +58,8 @@ export default function AutoRefresh() {
   }, [live, refresh]);
 
   return (
-    <div className="flex items-center gap-3 text-xs text-ink-faint" data-testid="auto-refresh">
-      <span className="flex items-center gap-1.5">
+    <div className="flex flex-wrap items-center gap-x-1 text-xs text-ink-faint [&_button]:whitespace-nowrap" data-testid="auto-refresh">
+      <span className="mr-2 flex items-center gap-1.5">
         <span
           className={`h-1.5 w-1.5 rounded-full ${
             live ? (refreshing ? 'bg-emerald-400' : 'bg-emerald-600') : 'bg-ink-faint'
@@ -68,10 +68,10 @@ export default function AutoRefresh() {
         {live ? 'Live' : 'Paused'}
         {updatedAt && <span> &middot; updated {clock(updatedAt)}</span>}
       </span>
-      <button onClick={refresh} className="hover:text-ink">
+      <button onClick={refresh} className="min-h-[40px] px-2 hover:text-ink">
         Refresh now
       </button>
-      <button onClick={() => setLive((v) => !v)} className="hover:text-ink">
+      <button onClick={() => setLive((v) => !v)} className="min-h-[40px] px-2 hover:text-ink">
         {live ? 'Pause' : 'Resume'}
       </button>
     </div>

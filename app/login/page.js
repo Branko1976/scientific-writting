@@ -142,7 +142,7 @@ export default function LoginPage() {
               setConfirmPin('');
               setError('');
             }}
-            className="w-full text-center text-xs text-ink-faint hover:text-ink-soft"
+            className="w-full py-3 text-center text-sm text-ink-faint hover:text-ink-soft"
           >
             Not you? Use a different name
           </button>
@@ -154,7 +154,7 @@ export default function LoginPage() {
         isn&rsquo;t a security password, so don&rsquo;t reuse one you care about.
       </p>
 
-      <Link href="/" className="mt-6 inline-block text-sm text-ink-faint hover:text-ink">
+      <Link href="/" className="mt-4 inline-block py-2 text-sm text-ink-faint hover:text-ink">
         &larr; Back without signing in
       </Link>
     </div>

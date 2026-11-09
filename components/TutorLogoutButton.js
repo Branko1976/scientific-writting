@@ -10,7 +10,7 @@ export default function TutorLogoutButton() {
     router.refresh();
   }
   return (
-    <button onClick={handleLogout} className="text-sm text-ink-faint hover:text-ink">
+    <button onClick={handleLogout} className="min-h-[40px] whitespace-nowrap px-2 text-sm text-ink-faint hover:text-ink">
       Log out
     </button>
   );

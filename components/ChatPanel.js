@@ -67,7 +67,7 @@ export default function ChatPanel({ classId, myName, accentText }) {
   }
 
   return (
-    <div className="flex h-[60vh] min-h-[360px] flex-col rounded-2xl border border-line bg-card">
+    <div className="flex h-[60dvh] min-h-[360px] flex-col rounded-2xl border border-line bg-card">
       <div ref={listRef} className="flex-1 space-y-3 overflow-y-auto px-4 py-4 sm:px-5">
         {loaded && messages.length === 0 && (
           <p className="mt-8 text-center text-sm text-ink-faint">

@@ -2,6 +2,13 @@ import './globals.css';
 import { ProgressProvider } from '../lib/ProgressProvider';
 import Header from '../components/Header';
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#f6f5f0',
+};
+
 export const metadata = {
   title: 'Scientific Writing: Principles and Practice',
   description:
@@ -14,7 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <ProgressProvider>
           <Header />
-          <main className="min-h-[calc(100vh-57px)]">{children}</main>
+          <main className="min-h-[calc(100dvh-57px)]">{children}</main>
         </ProgressProvider>
       </body>
     </html>

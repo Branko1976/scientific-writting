@@ -41,7 +41,7 @@ export default function ClassQuizPage({ params }) {
   return (
     <div className="mx-auto max-w-2xl px-4 pb-24 pt-6 sm:px-6 sm:pt-8">
       <div className="mb-6 flex items-center justify-between text-sm">
-        <Link href={`/class/${classId}`} className="text-ink-faint hover:text-ink">
+        <Link href={`/class/${classId}`} className="-my-2 inline-block py-2 pr-2 text-ink-faint hover:text-ink">
           &larr; Back to slides
         </Link>
         <span className={`font-medium ${ACCENT_TEXT[classId]}`}>

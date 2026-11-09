@@ -110,11 +110,11 @@ export default function HomePage() {
                     </span>
                   )}
                 </div>
-                <div className="mt-2 flex gap-3 text-xs">
-                  <Link href={`/class/${c.id}/write`} className="text-ink-faint hover:text-ink-soft">
+                <div className="mt-1 flex gap-1 text-sm">
+                  <Link href={`/class/${c.id}/write`} className="-ml-1 rounded px-2 py-2 text-ink-faint hover:text-ink-soft">
                     Writing task
                   </Link>
-                  <Link href={`/class/${c.id}/chat`} className="text-ink-faint hover:text-ink-soft">
+                  <Link href={`/class/${c.id}/chat`} className="rounded px-2 py-2 text-ink-faint hover:text-ink-soft">
                     Discussion
                   </Link>
                 </div>
@@ -123,13 +123,13 @@ export default function HomePage() {
               <div className="flex shrink-0 gap-2">
                 <Link
                   href={`/class/${c.id}`}
-                  className="rounded-md bg-ink px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                  className="flex min-h-[44px] items-center rounded-md bg-ink px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
                 >
                   {ctaLabel}
                 </Link>
                 <Link
                   href={`/class/${c.id}/quiz`}
-                  className="rounded-md border border-line px-4 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-ink hover:text-ink"
+                  className="flex min-h-[44px] items-center rounded-md border border-line px-4 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-ink hover:text-ink"
                 >
                   Quiz
                 </Link>
@@ -140,7 +140,7 @@ export default function HomePage() {
       </section>
 
       <div className="mt-16 text-center">
-        <Link href="/tutor" className="text-xs text-ink-faint hover:text-ink-soft">
+        <Link href="/tutor" className="inline-block px-3 py-3 text-sm text-ink-faint hover:text-ink-soft">
           Instructor dashboard
         </Link>
       </div>

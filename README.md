@@ -132,6 +132,15 @@ Redeploy after adding these (Vercel will prompt you, or push any commit).
 That's it — share the `*.vercel.app` URL with your 15 students, and use
 `your-url.vercel.app/tutor` yourself.
 
+## Phones and tablets
+
+The whole site is responsive, for students and for the tutor dashboard.
+Checked at 390 px (phone) and 820 px (tablet) with no sideways page scroll on any screen.
+
+- **Slides:** one-handed use on a phone. Big Back/Next buttons pinned to the bottom (safe-area aware for iPhones), swipe left/right to change slides.
+- **Quiz, writing task, discussion:** single-column layouts with 44 px tap targets.
+- **Tutor dashboard:** on a tablet the full roster is visible; on a phone the roster scrolls sideways with the student-name column pinned. Auto-refresh keeps working.
+
 ## Notes on the content and design choices
 
 - The deck's own "Quick Check → Answer" slide pairs became the quiz
