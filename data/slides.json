@@ -108,37 +108,6 @@
   ]
  },
  {
-  "n": 5,
-  "classId": 1,
-  "kind": "content",
-  "eyebrow": "TODAY'S ROADMAP",
-  "title": "What We'll Cover",
-  "partLabel": null,
-  "classLabel": null,
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Class 1 — Foundations: purpose, document types, IMRAD structure"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 2 — Writing clear and accurate sentences"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 3 — Building the introduction and literature review"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 4 — Presenting results and discussion"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 5 — Editing, peer review, and science communication"
-   }
-  ]
- },
- {
   "n": 6,
   "classId": 1,
   "kind": "content",
@@ -1427,37 +1396,6 @@
   ]
  },
  {
-  "n": 59,
-  "classId": 2,
-  "kind": "content",
-  "eyebrow": "TODAY'S ROADMAP",
-  "title": "What We'll Cover",
-  "partLabel": null,
-  "classLabel": null,
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Class 1 — Foundations: purpose, document types, IMRAD structure"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 2 — Writing clear and accurate sentences"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 3 — Building the introduction and literature review"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 4 — Presenting results and discussion"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 5 — Editing, peer review, and science communication"
-   }
-  ]
- },
- {
   "n": 60,
   "classId": 2,
   "kind": "content",
@@ -2592,37 +2530,6 @@
   ]
  },
  {
-  "n": 111,
-  "classId": 3,
-  "kind": "content",
-  "eyebrow": "TODAY'S ROADMAP",
-  "title": "What We'll Cover",
-  "partLabel": null,
-  "classLabel": null,
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Class 1 — Foundations: purpose, document types, IMRAD structure"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 2 — Writing clear and accurate sentences"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 3 — Building the introduction and literature review"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 4 — Presenting results and discussion"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 5 — Editing, peer review, and science communication"
-   }
-  ]
- },
- {
   "n": 112,
   "classId": 3,
   "kind": "content",
@@ -3702,37 +3609,6 @@
    {
     "role": "paragraph",
     "text": "Scientific Writing: Principles and Practice · Honours Student Program"
-   }
-  ]
- },
- {
-  "n": 162,
-  "classId": 4,
-  "kind": "content",
-  "eyebrow": "TODAY'S ROADMAP",
-  "title": "What We'll Cover",
-  "partLabel": null,
-  "classLabel": null,
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Class 1 — Foundations: purpose, document types, IMRAD structure"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 2 — Writing clear and accurate sentences"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 3 — Building the introduction and literature review"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 4 — Presenting results and discussion"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 5 — Editing, peer review, and science communication"
    }
   ]
  },
@@ -4819,37 +4695,6 @@
   ]
  },
  {
-  "n": 213,
-  "classId": 5,
-  "kind": "content",
-  "eyebrow": "TODAY'S ROADMAP",
-  "title": "What We'll Cover",
-  "partLabel": null,
-  "classLabel": null,
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Class 1 — Foundations: purpose, document types, IMRAD structure"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 2 — Writing clear and accurate sentences"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 3 — Building the introduction and literature review"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 4 — Presenting results and discussion"
-   },
-   {
-    "role": "paragraph",
-    "text": "Class 5 — Editing, peer review, and science communication"
-   }
-  ]
- },
- {
   "n": 214,
   "classId": 5,
   "kind": "content",
@@ -5917,8 +5762,8 @@
   "n": 263,
   "classId": 5,
   "kind": "content",
-  "eyebrow": "BEFORE NEXT CLASS",
-  "title": "Course Complete — What's Next",
+  "eyebrow": "AFTER THE COURSE",
+  "title": "Course Complete",
   "partLabel": null,
   "classLabel": null,
   "body": [
@@ -5936,7 +5781,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Next: Thank you for an engaged and thoughtful five sessions"
+    "text": "Thank you for an engaged and thoughtful five sessions"
    }
   ]
  }

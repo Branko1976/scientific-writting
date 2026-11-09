@@ -8,7 +8,7 @@ instructor gets a password-protected dashboard showing everyone's progress.
 
 ## What's in it
 
-- **Follow along** — the deck's slides in order (241 student-facing slides; the 22
+- **Follow along** — the deck's slides in order (236 student-facing slides; the 22
   "Answer" slides are left out so students can't see answers ahead of the quiz),
   with next/back navigation, arrow-key and swipe support, and a progress bar
   per class.
@@ -53,7 +53,7 @@ lib/
   ProgressProvider.js             Client-side auth/progress state, synced to the server
   storage.js                      localStorage cache (instant UX, works offline)
 data/
-  slides.json                    241 student-facing slides (answer slides removed)
+  slides.json                    236 student-facing slides (answer slides removed)
   slideCounts.json               Per-class slide counts -- regenerate together with slides.json
   quizzes.json                    22 quiz questions extracted from the Quick Check slides
   writingTasks.js                 The five writing task prompts
