@@ -6,10 +6,14 @@ import {
   getAllProgress,
   getAllQuiz,
   getAllWriting,
+  getAllActivities,
   getChatMessages,
   isDbConfigured,
 } from '../../../lib/db';
 import { CLASSES, slideCount } from '../../../data/classes';
+import slides from '../../../data/slides.json';
+
+const TASK_SLIDES = slides.filter((s) => s.activity);
 import TutorLogoutButton from '../../../components/TutorLogoutButton';
 import ResetDataButton from '../../../components/ResetDataButton';
 import AutoRefresh from '../../../components/AutoRefresh';
@@ -25,12 +29,16 @@ export default async function TutorDashboardPage() {
   const token = cookies().get(TUTOR_COOKIE)?.value;
   if (!readTutorToken(token)) redirect('/tutor');
 
-  const [students, allProgress, allQuiz, allWriting] = await Promise.all([
+  const [students, allProgress, allQuiz, allWriting, allActivities] = await Promise.all([
     listStudents(),
     getAllProgress(),
     getAllQuiz(),
     getAllWriting(),
+    getAllActivities(),
   ]);
+
+  const answersBySlide = {};
+  for (const a of allActivities) (answersBySlide[a.slideN] ||= []).push(a);
 
   const chatByClass = {};
   for (const c of CLASSES) {
@@ -116,6 +124,53 @@ export default async function TutorDashboardPage() {
               ))}
             </tbody>
           </table>
+        </div>
+      </section>
+
+      <section className="mb-12" data-testid="task-answers">
+        <h2 className="font-serif text-xl font-semibold text-ink">In-Class Task Answers</h2>
+        <p className="mt-1 text-sm text-ink-soft">
+          What students typed on the orange task slides. Open a task to read the answers aloud or compare them.
+        </p>
+        <div className="mt-4 space-y-6">
+          {CLASSES.map((c) => {
+            const tasks = TASK_SLIDES.filter((t) => t.classId === c.id);
+            return (
+              <div key={c.id}>
+                <h3 className="text-sm font-semibold text-ink">
+                  Class {c.id} &middot; {c.title}
+                </h3>
+                <div className="mt-2 space-y-2">
+                  {tasks.map((t) => {
+                    const list = answersBySlide[t.n] || [];
+                    return (
+                      <details key={t.n} className="rounded-lg border border-line bg-card px-4 py-2.5">
+                        <summary className="cursor-pointer text-sm text-ink">
+                          <span className="font-semibold text-mark">{t.eyebrow}</span>{' '}
+                          <span className="font-medium">{t.title}</span>{' '}
+                          <span className="whitespace-nowrap text-ink-faint">
+                            &middot; {list.length}/{students.length} answered
+                          </span>
+                        </summary>
+                        {list.length === 0 ? (
+                          <p className="mt-2 text-sm text-ink-faint">No answers yet.</p>
+                        ) : (
+                          <ul className="mt-2 space-y-2">
+                            {list.map((a) => (
+                              <li key={a.studentId} className="text-sm">
+                                <span className="font-medium text-ink">{a.studentName}</span>
+                                <p className="whitespace-pre-wrap leading-relaxed text-ink-soft">{a.content}</p>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </details>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

@@ -7,6 +7,7 @@ import allSlides from '../../../data/slides.json';
 import { getClass, slideCount } from '../../../data/classes';
 import { useProgress } from '../../../lib/ProgressProvider';
 import SlideView from '../../../components/SlideView';
+import ActivityBox from '../../../components/ActivityBox';
 
 const ACCENT_BAR = {
   1: 'bg-class-1',
@@ -27,7 +28,30 @@ export default function ClassSlidesPage({ params }) {
   const classId = Number(params.id);
   const cls = getClass(classId);
   const router = useRouter();
-  const { progress, ready, recordSlide } = useProgress();
+  const { progress, ready, recordSlide, auth, authReady } = useProgress();
+  const [answers, setAnswers] = useState({});
+  const [answersReady, setAnswersReady] = useState(false);
+
+  useEffect(() => {
+    if (!authReady) return;
+    if (!auth.loggedIn) {
+      setAnswersReady(true);
+      return;
+    }
+    let cancelled = false;
+    fetch(`/api/activity?classId=${classId}`)
+      .then((r) => (r.ok ? r.json() : { responses: {} }))
+      .then((data) => {
+        if (!cancelled) {
+          setAnswers(data.responses || {});
+          setAnswersReady(true);
+        }
+      })
+      .catch(() => !cancelled && setAnswersReady(true));
+    return () => {
+      cancelled = true;
+    };
+  }, [authReady, auth.loggedIn, classId]);
 
   const slides = useMemo(
     () => (cls ? allSlides.filter((s) => s.classId === classId) : []),
@@ -57,6 +81,8 @@ export default function ClassSlidesPage({ params }) {
 
   useEffect(() => {
     function onKey(e) {
+      const tag = e.target?.tagName;
+      if (tag === 'TEXTAREA' || tag === 'INPUT') return;
       if (e.key === 'ArrowRight' || e.key === ' ') {
         e.preventDefault();
         goNext();
@@ -157,6 +183,15 @@ export default function ClassSlidesPage({ params }) {
         onTouchEnd={onTouchEnd}
       >
         <SlideView slide={slide} classId={classId} />
+        {slide.activity && answersReady && (
+          <ActivityBox
+            key={slide.n}
+            slideN={slide.n}
+            initial={answers[slide.n] || ''}
+            loggedIn={auth.loggedIn}
+            onSaved={(n, value) => setAnswers((prev) => ({ ...prev, [n]: value }))}
+          />
+        )}
       </div>
 
       <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">

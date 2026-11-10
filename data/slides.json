@@ -89,25 +89,6 @@
   ]
  },
  {
-  "n": 4,
-  "classId": 1,
-  "kind": "class-cover",
-  "eyebrow": "Branko Aleksic · Dept. of International Medical Education",
-  "title": "Foundations of Scientific Writing",
-  "partLabel": null,
-  "classLabel": "CLASS 1 OF 5",
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "What scientific writing is for, and how a paper is built"
-   },
-   {
-    "role": "paragraph",
-    "text": "Scientific Writing: Principles and Practice · Honours Student Program"
-   }
-  ]
- },
- {
   "n": 6,
   "classId": 1,
   "kind": "content",
@@ -213,7 +194,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds, then we'll share"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 11,
@@ -337,7 +319,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 17,
@@ -486,7 +469,8 @@
     "role": "paragraph",
     "text": "Raise your hand for each one as it's named"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 22,
@@ -611,7 +595,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 27,
@@ -869,7 +854,8 @@
     "role": "paragraph",
     "text": "Decide individually, then compare with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 37,
@@ -1173,7 +1159,8 @@
     "role": "paragraph",
     "text": "Jot down 3 keywords — we'll compare a few out loud"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 49,
@@ -1338,21 +1325,21 @@
   "n": 56,
   "classId": 1,
   "kind": "content",
-  "eyebrow": "BEFORE NEXT CLASS",
-  "title": "Before Class 2",
+  "eyebrow": "DURING THE BREAK",
+  "title": "10-Minute Break",
   "partLabel": null,
   "classLabel": null,
   "body": [
    {
     "role": "paragraph",
-    "text": "Bring these to our next session"
+    "text": "Class 2 starts right after — nothing to prepare"
    },
    {
     "role": "bullets",
     "items": [
-     "Find one published original article in your field of interest",
-     "Label its Introduction, Methods, Results, and Discussion sections",
-     "Bring one sentence from that paper's Results that you think is written clearly"
+     "Finish the Class 1 quiz on the website if you haven't yet",
+     "Writing task not finished? Leave it — you can complete it after today's last class",
+     "Stretch, get some water, and be back in 10 minutes"
     ]
    },
    {
@@ -1373,25 +1360,6 @@
    {
     "role": "paragraph",
     "text": "Sentence structure, voice, and cutting the words that don't earn their place"
-   }
-  ]
- },
- {
-  "n": 58,
-  "classId": 2,
-  "kind": "class-cover",
-  "eyebrow": "Branko Aleksic · Dept. of International Medical Education",
-  "title": "Writing Clear and Accurate Sentences",
-  "partLabel": null,
-  "classLabel": "CLASS 2 OF 5",
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Sentence structure, voice, and cutting the words that don't earn their place"
-   },
-   {
-    "role": "paragraph",
-    "text": "Scientific Writing: Principles and Practice · Honours Student Program"
    }
   ]
  },
@@ -1428,7 +1396,8 @@
     "role": "paragraph",
     "text": "Talk with a neighbor — what would you cut first?"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 62,
@@ -1565,9 +1534,10 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "Draft a two-sentence version on paper — 2 minutes"
+    "text": "Draft a two-sentence version on the website or on paper — 2 minutes"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 68,
@@ -1821,9 +1791,10 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "Try both versions on paper — 90 seconds"
+    "text": "Try both versions on the website or on paper — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 79,
@@ -2044,7 +2015,8 @@
     "role": "paragraph",
     "text": "Circle every word you'd delete — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 90,
@@ -2233,7 +2205,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 99,
@@ -2472,21 +2445,21 @@
   "n": 108,
   "classId": 2,
   "kind": "content",
-  "eyebrow": "BEFORE NEXT CLASS",
-  "title": "Before Class 3",
+  "eyebrow": "DURING THE BREAK",
+  "title": "10-Minute Break",
   "partLabel": null,
   "classLabel": null,
   "body": [
    {
     "role": "paragraph",
-    "text": "Bring these to our next session"
+    "text": "Class 3 starts right after — nothing to prepare"
    },
    {
     "role": "bullets",
     "items": [
-     "Take one paragraph from your own writing (or a draft idea) and split any overloaded sentences",
-     "Circle three redundant phrases in something you've previously written and revise them",
-     "Bring one sentence you're proud of — we may share a few"
+     "Finish the Class 2 quiz on the website if you haven't yet",
+     "Writing task not finished? Leave it — you can complete it after today's last class",
+     "Stretch, get some water, and be back in 10 minutes"
     ]
    },
    {
@@ -2507,25 +2480,6 @@
    {
     "role": "paragraph",
     "text": "From broad context to a precise, defensible research question"
-   }
-  ]
- },
- {
-  "n": 110,
-  "classId": 3,
-  "kind": "class-cover",
-  "eyebrow": "Branko Aleksic · Dept. of International Medical Education",
-  "title": "Building the Introduction and Literature Review",
-  "partLabel": null,
-  "classLabel": "CLASS 3 OF 5",
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "From broad context to a precise, defensible research question"
-   },
-   {
-    "role": "paragraph",
-    "text": "Scientific Writing: Principles and Practice · Honours Student Program"
    }
   ]
  },
@@ -2686,7 +2640,8 @@
     "role": "paragraph",
     "text": "Share your sentence with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 119,
@@ -2771,7 +2726,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 124,
@@ -2870,7 +2826,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 129,
@@ -3181,7 +3138,8 @@
     "role": "paragraph",
     "text": "Write it down — we'll ask a few volunteers to share"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 143,
@@ -3330,7 +3288,8 @@
     "role": "paragraph",
     "text": "Write it down — 2 minutes, then a few volunteers share"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 150,
@@ -3441,7 +3400,8 @@
     "role": "paragraph",
     "text": "Swap papers — 2 minutes"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 155,
@@ -3555,21 +3515,21 @@
   "n": 159,
   "classId": 3,
   "kind": "content",
-  "eyebrow": "BEFORE NEXT CLASS",
-  "title": "Before Class 4",
+  "eyebrow": "DURING THE BREAK",
+  "title": "10-Minute Break",
   "partLabel": null,
   "classLabel": null,
   "body": [
    {
     "role": "paragraph",
-    "text": "Bring these to our next session"
+    "text": "Class 4 starts right after — nothing to prepare"
    },
    {
     "role": "bullets",
     "items": [
-     "Draft a 4-move introduction outline for your own research interest (context, known, gap, aim)",
-     "Find one published introduction and label its four moves",
-     "Bring one figure or table from a paper you found genuinely easy to understand"
+     "Finish the Class 3 quiz on the website if you haven't yet",
+     "Writing task not finished? Leave it — you can complete it after today's last class",
+     "Stretch, get some water, and be back in 10 minutes"
     ]
    },
    {
@@ -3590,25 +3550,6 @@
    {
     "role": "paragraph",
     "text": "Reporting findings objectively, then interpreting them honestly"
-   }
-  ]
- },
- {
-  "n": 161,
-  "classId": 4,
-  "kind": "class-cover",
-  "eyebrow": "Branko Aleksic · Dept. of International Medical Education",
-  "title": "Presenting Results and Discussion",
-  "partLabel": null,
-  "classLabel": "CLASS 4 OF 5",
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Reporting findings objectively, then interpreting them honestly"
-   },
-   {
-    "role": "paragraph",
-    "text": "Scientific Writing: Principles and Practice · Honours Student Program"
    }
   ]
  },
@@ -3706,7 +3647,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 168,
@@ -3955,7 +3897,8 @@
     "role": "paragraph",
     "text": "Write one or two sentences — 2 minutes"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 180,
@@ -4095,7 +4038,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 186,
@@ -4276,7 +4220,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 193,
@@ -4503,7 +4448,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 204,
@@ -4637,21 +4583,21 @@
   "n": 210,
   "classId": 4,
   "kind": "content",
-  "eyebrow": "BEFORE NEXT CLASS",
-  "title": "Before Class 5",
+  "eyebrow": "DURING THE BREAK",
+  "title": "10-Minute Break",
   "partLabel": null,
   "classLabel": null,
   "body": [
    {
     "role": "paragraph",
-    "text": "Bring these to our next session"
+    "text": "Class 5 starts right after — nothing to prepare"
    },
    {
     "role": "bullets",
     "items": [
-     "Draft a Results paragraph (real or hypothetical data) with zero interpretive language",
-     "Write one figure caption that could stand completely on its own",
-     "List two honest limitations for a study you're planning or reading about"
+     "Finish the Class 4 quiz on the website if you haven't yet",
+     "Writing task not finished? Leave it — you can complete it after today's last class",
+     "Stretch, get some water, and be back in 10 minutes"
     ]
    },
    {
@@ -4672,25 +4618,6 @@
    {
     "role": "paragraph",
     "text": "Revising your own work, responding to reviewers, and reaching wider audiences"
-   }
-  ]
- },
- {
-  "n": 212,
-  "classId": 5,
-  "kind": "class-cover",
-  "eyebrow": "Branko Aleksic · Dept. of International Medical Education",
-  "title": "Editing, Peer Review, and Beyond",
-  "partLabel": null,
-  "classLabel": "CLASS 5 OF 5",
-  "body": [
-   {
-    "role": "paragraph",
-    "text": "Revising your own work, responding to reviewers, and reaching wider audiences"
-   },
-   {
-    "role": "paragraph",
-    "text": "Scientific Writing: Principles and Practice · Honours Student Program"
    }
   ]
  },
@@ -4816,7 +4743,8 @@
     "role": "paragraph",
     "text": "Check silently — we'll discuss patterns as a group"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 220,
@@ -4998,7 +4926,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 229,
@@ -5103,7 +5032,8 @@
     "role": "paragraph",
     "text": "Draft one or two sentences of feedback — 2 minutes"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 235,
@@ -5292,7 +5222,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 242,
@@ -5448,7 +5379,8 @@
     "role": "paragraph",
     "text": "Discuss with a neighbor — 90 seconds"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 249,
@@ -5544,9 +5476,10 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "Draft it on paper — 2 minutes"
+    "text": "Draft it on the website or on paper — 2 minutes"
    }
-  ]
+  ],
+  "activity": true
  },
  {
   "n": 254,
@@ -5762,21 +5695,21 @@
   "n": 263,
   "classId": 5,
   "kind": "content",
-  "eyebrow": "AFTER THE COURSE",
-  "title": "Course Complete",
+  "eyebrow": "THE WEBSITE STAYS OPEN",
+  "title": "Thank You",
   "partLabel": null,
   "classLabel": null,
   "body": [
    {
     "role": "paragraph",
-    "text": "Carrying these skills forward"
+    "text": "Course complete — five classes, one toolkit"
    },
    {
     "role": "bullets",
     "items": [
-     "Complete your final short writing assignment, applying all five classes",
-     "Exchange drafts with a classmate for structured peer review",
-     "Revisit your Class 1 sample article — try re-labeling it with everything you now know"
+     "Finish any quiz or writing task you didn't get to today",
+     "Come back to the slides whenever you write your next paper",
+     "Questions later? Post them in the class Discussion"
     ]
    },
    {

@@ -8,7 +8,7 @@ instructor gets a password-protected dashboard showing everyone's progress.
 
 ## What's in it
 
-- **Follow along** — the deck's slides in order (236 student-facing slides; the 22
+- **Follow along** — the deck's slides in order (231 student-facing slides; the 22
   "Answer" slides are left out so students can't see answers ahead of the quiz),
   with next/back navigation, arrow-key and swipe support, and a progress bar
   per class.
@@ -53,7 +53,7 @@ lib/
   ProgressProvider.js             Client-side auth/progress state, synced to the server
   storage.js                      localStorage cache (instant UX, works offline)
 data/
-  slides.json                    236 student-facing slides (answer slides removed)
+  slides.json                    231 student-facing slides (answer slides removed)
   slideCounts.json               Per-class slide counts -- regenerate together with slides.json
   quizzes.json                    22 quiz questions extracted from the Quick Check slides
   writingTasks.js                 The five writing task prompts
@@ -131,6 +131,12 @@ Redeploy after adding these (Vercel will prompt you, or push any commit).
 
 That's it — share the `*.vercel.app` URL with your 15 students, and use
 `your-url.vercel.app/tutor` yourself.
+
+## In-class tasks
+
+The orange task slides in the deck (Turn & Talk, Your Turn, Sort It Out, and so on — 28 in total) show an
+**Your answer** box on the website. Answers save automatically and appear on the tutor dashboard under
+**In-Class Task Answers**, grouped by class and task. Stored in the `activity_responses` table (created automatically).
 
 ## Phones and tablets
 
