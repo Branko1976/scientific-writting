@@ -76,6 +76,38 @@ export default function HomePage() {
         )}
       </section>
 
+      <a
+        href="https://www.asime.online/ja/#materials"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-testid="textbook-banner"
+        className="group mb-10 flex flex-col gap-4 rounded-2xl bg-ink px-5 py-5 text-white shadow-sm transition-transform hover:-translate-y-0.5 sm:flex-row sm:items-center sm:justify-between sm:px-7 sm:py-6"
+      >
+        <div className="flex items-start gap-4">
+          <span
+            aria-hidden="true"
+            className="mt-0.5 flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-mark text-2xl"
+          >
+            &#128214;
+          </span>
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-white/70">
+              Free companion textbook
+            </p>
+            <p className="mt-1 font-serif text-xl font-semibold leading-snug sm:text-2xl">
+              Scientific Writing: Principles and Practice
+            </p>
+            <p className="mt-1 text-sm leading-relaxed text-white/80">
+              The full course as an ebook &mdash; five chapters with examples, exercises and
+              checklists. Free to download from ASIME.
+            </p>
+          </div>
+        </div>
+        <span className="flex min-h-[44px] shrink-0 items-center justify-center rounded-lg bg-white px-5 text-sm font-semibold text-ink group-hover:bg-white/90">
+          Get the free textbook &rarr;
+        </span>
+      </a>
+
       <section aria-label="Classes" className="space-y-3">
         {CLASSES.map((c) => {
           const entry = progress.classes[c.id];

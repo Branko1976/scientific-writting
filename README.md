@@ -132,6 +132,11 @@ Redeploy after adding these (Vercel will prompt you, or push any commit).
 That's it — share the `*.vercel.app` URL with your 15 students, and use
 `your-url.vercel.app/tutor` yourself.
 
+## Companion textbook
+
+The home page shows a prominent banner linking to the free companion textbook at
+<https://www.asime.online/ja/#materials>. To change the link or wording, edit the banner in `app/page.js`.
+
 ## In-class tasks
 
 The orange task slides in the deck (Turn & Talk, Your Turn, Sort It Out, and so on — 28 in total) show an
