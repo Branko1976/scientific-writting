@@ -4,7 +4,8 @@ import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import allSlides from '../../../data/slides.json';
-import { getClass, slideCount } from '../../../data/classes';
+import { getClass, slideCount, classTitle } from '../../../data/classes';
+import { useLang } from '../../../lib/LanguageProvider';
 import { useProgress } from '../../../lib/ProgressProvider';
 import SlideView from '../../../components/SlideView';
 import ActivityBox from '../../../components/ActivityBox';
@@ -29,6 +30,7 @@ export default function ClassSlidesPage({ params }) {
   const cls = getClass(classId);
   const router = useRouter();
   const { progress, ready, recordSlide, auth, authReady } = useProgress();
+  const { t, lang } = useLang();
   const [answers, setAnswers] = useState({});
   const [answersReady, setAnswersReady] = useState(false);
 
@@ -98,9 +100,9 @@ export default function ClassSlidesPage({ params }) {
   if (!cls) {
     return (
       <div className="mx-auto max-w-xl px-5 py-20 text-center">
-        <p className="text-ink-soft">That class doesn&rsquo;t exist.</p>
+        <p className="text-ink-soft">{t('common.noClass')}</p>
         <Link href="/" className="mt-4 inline-block text-mark underline">
-          Back to course
+          {t('common.backCourse')}
         </Link>
       </div>
     );
@@ -135,10 +137,10 @@ export default function ClassSlidesPage({ params }) {
     <div className="mx-auto max-w-3xl px-4 pb-32 pt-5 sm:px-6 sm:pt-8">
       <div className="mb-3 flex items-center justify-between gap-3 text-sm">
         <Link href="/" className="-my-2 py-2 pr-2 text-ink-faint hover:text-ink">
-          &larr; All classes
+          {t('viewer.all')}
         </Link>
         <span className={`text-right font-medium ${ACCENT_TEXT[classId]}`}>
-          Class {classId} &middot; {cls.title}
+          {t('common.classN', { n: classId })} &middot; {classTitle(cls, lang)}
         </span>
       </div>
 
@@ -147,19 +149,19 @@ export default function ClassSlidesPage({ params }) {
           href={`/class/${classId}/write`}
           className="rounded-full border border-line px-4 py-2 text-ink-soft transition-colors hover:border-ink hover:text-ink"
         >
-          Writing task
+          {t('nav.writing')}
         </Link>
         <Link
           href={`/class/${classId}/chat`}
           className="rounded-full border border-line px-4 py-2 text-ink-soft transition-colors hover:border-ink hover:text-ink"
         >
-          Discussion
+          {t('nav.discussion')}
         </Link>
         <Link
           href={`/class/${classId}/quiz`}
           className="rounded-full border border-line px-4 py-2 text-ink-soft transition-colors hover:border-ink hover:text-ink"
         >
-          Quiz
+          {t('nav.quiz')}
         </Link>
       </div>
 
@@ -173,9 +175,12 @@ export default function ClassSlidesPage({ params }) {
       <div className="mt-1.5 flex items-center justify-between text-xs text-ink-faint">
         <span>{currentPart || '\u00A0'}</span>
         <span>
-          Slide {index + 1} of {total}
+          {t('viewer.slideOf', { a: index + 1, b: total })}
         </span>
       </div>
+      {t('viewer.enNote') && (
+        <p className="mt-1 text-xs text-ink-faint" data-testid="en-note">{t('viewer.enNote')}</p>
+      )}
 
       <div
         className="mt-4 min-h-[420px] rounded-2xl border border-line bg-card shadow-slide sm:min-h-[480px]"
@@ -201,7 +206,7 @@ export default function ClassSlidesPage({ params }) {
             disabled={index === 0}
             className="min-h-[44px] rounded-md border border-line px-5 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-ink hover:text-ink disabled:opacity-30"
           >
-            Back
+            {t('viewer.back')}
           </button>
 
           {isLast ? (
@@ -209,14 +214,14 @@ export default function ClassSlidesPage({ params }) {
               onClick={() => router.push(`/class/${classId}/quiz`)}
               className="min-h-[44px] rounded-md bg-mark px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
-              Take the quiz &rarr;
+              {t('viewer.takeQuiz')}
             </button>
           ) : (
             <button
               onClick={goNext}
               className="min-h-[44px] rounded-md bg-ink px-6 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
-              Next
+              {t('viewer.next')}
             </button>
           )}
         </div>

@@ -1,10 +1,13 @@
 'use client';
 
+import { useLang } from '../lib/LanguageProvider';
+
 import { useState } from 'react';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
 export default function QuizView({ questions, accentClass, accentBg, onFinish }) {
+  const { t } = useLang();
   const [qi, setQi] = useState(0);
   const [answers, setAnswers] = useState(() => Array(questions.length).fill(null));
   const [done, setDone] = useState(false);
@@ -41,17 +44,17 @@ export default function QuizView({ questions, accentClass, accentBg, onFinish })
     return (
       <div className="rounded-2xl border border-line bg-card px-6 py-10 text-center sm:px-10">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
-          Quiz complete
+          {t('quiz.complete')}
         </p>
         <p className="mt-3 font-serif text-4xl font-semibold text-ink">
           {finalScore} / {questions.length}
         </p>
         <p className="mt-2 text-sm text-ink-soft">
           {finalScore === questions.length
-            ? 'Perfect score.'
+            ? t('quiz.perfect')
             : finalScore / questions.length >= 0.6
-            ? 'Solid grasp of this class — worth a quick review of the ones you missed.'
-            : 'Worth another pass through the class slides before moving on.'}
+            ? t('quiz.solid')
+            : t('quiz.again')}
         </p>
 
         <div className="mt-6 space-y-2 text-left">
@@ -70,7 +73,7 @@ export default function QuizView({ questions, accentClass, accentBg, onFinish })
           onClick={restart}
           className="mt-7 rounded-md border border-line px-5 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-ink hover:text-ink"
         >
-          Retake quiz
+          {t('quiz.retake')}
         </button>
       </div>
     );
@@ -80,9 +83,9 @@ export default function QuizView({ questions, accentClass, accentBg, onFinish })
     <div>
       <div className="mb-3 flex items-center justify-between text-xs text-ink-faint">
         <span>
-          Question {qi + 1} of {questions.length}
+          {t('quiz.questionOf', { a: qi + 1, b: questions.length })}
         </span>
-        <span>Score so far: {score}</span>
+        <span>{t('quiz.scoreSoFar', { n: score })}</span>
       </div>
       <div className="h-1 w-full overflow-hidden rounded-full bg-line">
         <div
@@ -125,7 +128,7 @@ export default function QuizView({ questions, accentClass, accentBg, onFinish })
         {answered && (
           <div className="mt-5 rounded-lg border border-line bg-paper px-4 py-3 text-sm leading-relaxed text-ink-soft">
             <span className="font-medium text-ink">
-              {answers[qi] === q.correctIndex ? 'Correct. ' : 'Not quite. '}
+              {answers[qi] === q.correctIndex ? t('quiz.correct') : t('quiz.notQuite')}
             </span>
             {q.explanation}
           </div>
@@ -136,7 +139,7 @@ export default function QuizView({ questions, accentClass, accentBg, onFinish })
             onClick={advance}
             className="mt-6 rounded-md bg-ink px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
-            {qi + 1 < questions.length ? 'Next question' : 'See results'}
+            {qi + 1 < questions.length ? t('quiz.nextQ') : t('quiz.results')}
           </button>
         )}
       </div>

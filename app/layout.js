@@ -1,5 +1,6 @@
 import './globals.css';
 import { ProgressProvider } from '../lib/ProgressProvider';
+import { LanguageProvider } from '../lib/LanguageProvider';
 import Header from '../components/Header';
 
 export const viewport = {
@@ -20,8 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <ProgressProvider>
-          <Header />
-          <main className="min-h-[calc(100dvh-57px)]">{children}</main>
+          <LanguageProvider>
+            <Header />
+            <main className="min-h-[calc(100dvh-57px)]">{children}</main>
+          </LanguageProvider>
         </ProgressProvider>
       </body>
     </html>

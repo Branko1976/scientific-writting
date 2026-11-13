@@ -1,8 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import quizzes from '../../../../data/quizzes.json';
-import { getClass } from '../../../../data/classes';
+import quizzesEn from '../../../../data/quizzes.json';
+import quizzesJa from '../../../../data/quizzes.ja.json';
+import { useLang } from '../../../../lib/LanguageProvider';
+import { getClass, classTitle } from '../../../../data/classes';
 import { useProgress } from '../../../../lib/ProgressProvider';
 import QuizView from '../../../../components/QuizView';
 
@@ -24,15 +26,17 @@ const ACCENT_BG = {
 export default function ClassQuizPage({ params }) {
   const classId = Number(params.id);
   const cls = getClass(classId);
-  const questions = quizzes[String(classId)] || [];
+  const { t, lang } = useLang();
+  const quizzes = lang === 'ja' ? quizzesJa : quizzesEn;
+  const questions = quizzes[String(classId)] || quizzesEn[String(classId)] || [];
   const { recordQuiz } = useProgress();
 
   if (!cls) {
     return (
       <div className="mx-auto max-w-xl px-5 py-20 text-center">
-        <p className="text-ink-soft">That class doesn&rsquo;t exist.</p>
+        <p className="text-ink-soft">{t('common.noClass')}</p>
         <Link href="/" className="mt-4 inline-block text-mark underline">
-          Back to course
+          {t('common.backCourse')}
         </Link>
       </div>
     );
@@ -42,20 +46,20 @@ export default function ClassQuizPage({ params }) {
     <div className="mx-auto max-w-2xl px-4 pb-24 pt-6 sm:px-6 sm:pt-8">
       <div className="mb-6 flex items-center justify-between text-sm">
         <Link href={`/class/${classId}`} className="-my-2 inline-block py-2 pr-2 text-ink-faint hover:text-ink">
-          &larr; Back to slides
+          {t('common.backSlides')}
         </Link>
         <span className={`font-medium ${ACCENT_TEXT[classId]}`}>
-          Class {classId} Quiz
+          {t('quiz.header', { n: classId })}
         </span>
       </div>
 
-      <h1 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">{cls.title}</h1>
+      <h1 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">{classTitle(cls, lang)}</h1>
       <p className="mt-1 text-sm text-ink-soft">
-        {questions.length} quick checks drawn straight from this class&rsquo;s slides.
+        {t('quiz.sub', { n: questions.length })}
       </p>
 
       {questions.length === 0 ? (
-        <p className="mt-8 text-ink-soft">No quiz questions yet for this class.</p>
+        <p className="mt-8 text-ink-soft">{t('quiz.none')}</p>
       ) : (
         <div className="mt-6">
           <QuizView

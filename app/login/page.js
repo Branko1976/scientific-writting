@@ -4,10 +4,13 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useProgress } from '../../lib/ProgressProvider';
+import { useLang } from '../../lib/LanguageProvider';
+import { translateServerError } from '../../lib/i18n';
 
 export default function LoginPage() {
   const router = useRouter();
   const { login, auth, authReady } = useProgress();
+  const { t, lang } = useLang();
 
   const [next, setNext] = useState('/');
   const [step, setStep] = useState('name'); // 'name' | 'pin'
@@ -31,7 +34,7 @@ export default function LoginPage() {
     e.preventDefault();
     setError('');
     if (!name.trim()) {
-      setError('Enter your name.');
+      setError(t('login.errName'));
       return;
     }
     setBusy(true);
@@ -41,7 +44,7 @@ export default function LoginPage() {
       setIsNew(!data.exists);
       setStep('pin');
     } catch {
-      setError('Something went wrong. Try again.');
+      setError(t('login.errGeneric'));
     } finally {
       setBusy(false);
     }
@@ -51,18 +54,18 @@ export default function LoginPage() {
     e.preventDefault();
     setError('');
     if (!/^\d{4}$/.test(pin)) {
-      setError('PIN must be 4 digits.');
+      setError(t('login.errPin'));
       return;
     }
     if (isNew && pin !== confirmPin) {
-      setError('PINs don\u2019t match.');
+      setError(t('login.errMismatch'));
       return;
     }
     setBusy(true);
     const result = await login(name.trim(), pin);
     setBusy(false);
     if (!result.ok) {
-      setError(result.error);
+      setError(translateServerError(lang, result.error));
       return;
     }
     router.replace(next);
@@ -71,17 +74,17 @@ export default function LoginPage() {
   return (
     <div className="mx-auto max-w-sm px-5 py-16">
       <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
-        Honours Student Program
+        {t('login.kicker')}
       </p>
       <h1 className="mt-2 font-serif text-2xl font-semibold text-ink">
-        {step === 'name' ? 'Sign in' : isNew ? 'Choose a PIN' : 'Enter your PIN'}
+        {step === 'name' ? t('login.signIn') : isNew ? t('login.choosePin') : t('login.enterPin')}
       </h1>
       <p className="mt-2 text-sm text-ink-soft">
         {step === 'name'
-          ? 'Use the name you want your instructor to see on the class roster.'
+          ? t('login.nameHelp')
           : isNew
-          ? `First time for "${name.trim()}" \u2014 pick a 4-digit PIN so it's yours next time.`
-          : `Welcome back, ${name.trim()}.`}
+          ? t('login.firstTime', { name: name.trim() })
+          : t('login.welcomeBack', { name: name.trim() })}
       </p>
 
       {step === 'name' && (
@@ -90,7 +93,7 @@ export default function LoginPage() {
             autoFocus
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Your name"
+            placeholder={t('login.namePlaceholder')}
             maxLength={40}
             className="w-full rounded-md border border-line bg-card px-3 py-2.5 text-ink outline-none focus-visible:border-mark"
           />
@@ -100,7 +103,7 @@ export default function LoginPage() {
             disabled={busy}
             className="w-full rounded-md bg-ink px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-50"
           >
-            Continue
+            {t('login.continue')}
           </button>
         </form>
       )}
@@ -111,7 +114,7 @@ export default function LoginPage() {
             autoFocus
             value={pin}
             onChange={(e) => setPin(e.target.value.replace(/\D/g, '').slice(0, 4))}
-            placeholder="4-digit PIN"
+            placeholder={t('login.pinPlaceholder')}
             inputMode="numeric"
             maxLength={4}
             className="w-full rounded-md border border-line bg-card px-3 py-2.5 tracking-[0.3em] text-ink outline-none focus-visible:border-mark"
@@ -120,7 +123,7 @@ export default function LoginPage() {
             <input
               value={confirmPin}
               onChange={(e) => setConfirmPin(e.target.value.replace(/\D/g, '').slice(0, 4))}
-              placeholder="Confirm PIN"
+              placeholder={t('login.confirmPlaceholder')}
               inputMode="numeric"
               maxLength={4}
               className="w-full rounded-md border border-line bg-card px-3 py-2.5 tracking-[0.3em] text-ink outline-none focus-visible:border-mark"
@@ -132,7 +135,7 @@ export default function LoginPage() {
             disabled={busy}
             className="w-full rounded-md bg-ink px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-50"
           >
-            {isNew ? 'Create account' : 'Log in'}
+            {isNew ? t('login.create') : t('login.login')}
           </button>
           <button
             type="button"
@@ -144,18 +147,17 @@ export default function LoginPage() {
             }}
             className="w-full py-3 text-center text-sm text-ink-faint hover:text-ink-soft"
           >
-            Not you? Use a different name
+            {t('login.notYou')}
           </button>
         </form>
       )}
 
       <p className="mt-8 text-xs text-ink-faint">
-        This PIN just keeps your own progress separate from your classmates&rsquo; &mdash; it
-        isn&rsquo;t a security password, so don&rsquo;t reuse one you care about.
+        {t('login.pinNote')}
       </p>
 
       <Link href="/" className="mt-4 inline-block py-2 text-sm text-ink-faint hover:text-ink">
-        &larr; Back without signing in
+        {t('login.back')}
       </Link>
     </div>
   );

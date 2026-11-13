@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { CLASSES, slideCount } from '../data/classes';
+import { CLASSES, slideCount, classTitle, classBlurb } from '../data/classes';
+import { useLang } from '../lib/LanguageProvider';
 import { useProgress } from '../lib/ProgressProvider';
 import ProgressBar from '../components/ProgressBar';
 
@@ -36,6 +37,7 @@ function classStatus(entry, total) {
 
 export default function HomePage() {
   const { progress, ready, auth, authReady } = useProgress();
+  const { t, lang } = useLang();
 
   const completedCount = ready
     ? CLASSES.filter((c) => classStatus(progress.classes[c.id], slideCount(c.id)) === 'done').length
@@ -45,32 +47,30 @@ export default function HomePage() {
     <div className="mx-auto max-w-5xl px-5 pb-24 pt-10 sm:pt-16">
       <section className="mb-14 max-w-2xl">
         <p className="text-xs font-medium uppercase tracking-[0.14em] text-ink-faint">
-          Honours Student Program · Nagoya University
+          {t('home.kicker')}
         </p>
         <h1 className="mt-3 font-serif text-4xl font-semibold leading-[1.15] text-ink sm:text-5xl">
-          Scientific Writing:
+          {t('home.title1')}
           <br />
-          Principles and Practice
+          {t('home.title2')}
         </h1>
         <p className="mt-4 text-[15px] leading-relaxed text-ink-soft">
-          Five classes, sixty minutes each — from why scientific writing has its own rules to
-          responding to peer review. Work through each class at your own pace, then check your
-          understanding with the quick checks your instructor built into the material.
+          {t('home.intro')}
         </p>
         {ready && (
           <p className="mt-5 text-sm text-ink-faint">
-            {completedCount === 0 && 'You haven\u2019t started a class yet.'}
-            {completedCount > 0 && completedCount < 5 && `${completedCount} of 5 classes reviewed.`}
-            {completedCount === 5 && 'All five classes reviewed — nicely done.'}
+            {completedCount === 0 && t('home.notStarted')}
+            {completedCount > 0 && completedCount < 5 && t('home.someDone', { n: completedCount })}
+            {completedCount === 5 && t('home.allDone')}
           </p>
         )}
         {authReady && !auth.loggedIn && (
           <div className="mt-5 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-card px-4 py-3 text-sm">
             <span className="text-ink-soft">
-              Log in to save your progress across devices and use the writing tasks and discussion.
+              {t('home.loginPrompt')}
             </span>
             <Link href="/login" className="shrink-0 font-medium text-mark hover:underline">
-              Log in
+              {t('header.login')}
             </Link>
           </div>
         )}
@@ -92,19 +92,18 @@ export default function HomePage() {
           </span>
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-white/70">
-              Free companion textbook
+              {t('tb.kicker')}
             </p>
             <p className="mt-1 font-serif text-xl font-semibold leading-snug sm:text-2xl">
-              Scientific Writing: Principles and Practice
+              {t('tb.title')}
             </p>
             <p className="mt-1 text-sm leading-relaxed text-white/80">
-              The full course as an ebook &mdash; five chapters with examples, exercises and
-              checklists. Free to download from ASIME.
+              {t('tb.desc')}
             </p>
           </div>
         </div>
         <span className="flex min-h-[44px] shrink-0 items-center justify-center rounded-lg bg-white px-5 text-sm font-semibold text-ink group-hover:bg-white/90">
-          Get the free textbook &rarr;
+          {t('tb.cta')}
         </span>
       </a>
 
@@ -116,7 +115,7 @@ export default function HomePage() {
           const pct = ready && entry ? Math.min(1, (entry.maxSlide + 1) / total) : 0;
           const quizBest = entry?.quizBest;
 
-          const ctaLabel = status === 'done' ? 'Review' : status === 'progress' ? 'Continue' : 'Start class';
+          const ctaLabel = status === 'done' ? t('cta.review') : status === 'progress' ? t('cta.continue') : t('cta.start');
 
           return (
             <div
@@ -128,26 +127,26 @@ export default function HomePage() {
               </div>
 
               <div className="flex-1">
-                <h2 className="font-serif text-xl font-semibold text-ink">{c.title}</h2>
-                <p className="mt-0.5 text-sm text-ink-soft">{c.blurb}</p>
+                <h2 className="font-serif text-xl font-semibold text-ink">{classTitle(c, lang)}</h2>
+                <p className="mt-0.5 text-sm text-ink-soft">{classBlurb(c, lang)}</p>
 
                 <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">
                   <div className="w-40 max-w-[40vw]">
                     <ProgressBar value={pct} colorClass={ACCENT_BAR[c.id]} />
                   </div>
-                  <span className="text-xs text-ink-faint">{total} slides</span>
+                  <span className="text-xs text-ink-faint">{t('home.slides', { n: total })}</span>
                   {quizBest && (
                     <span className="text-xs text-ink-faint">
-                      · Quiz best {quizBest.score}/{quizBest.total}
+                      · {t('home.quizBest', { s: quizBest.score, t: quizBest.total })}
                     </span>
                   )}
                 </div>
                 <div className="mt-1 flex gap-1 text-sm">
                   <Link href={`/class/${c.id}/write`} className="-ml-1 rounded px-2 py-2 text-ink-faint hover:text-ink-soft">
-                    Writing task
+                    {t('nav.writing')}
                   </Link>
                   <Link href={`/class/${c.id}/chat`} className="rounded px-2 py-2 text-ink-faint hover:text-ink-soft">
-                    Discussion
+                    {t('nav.discussion')}
                   </Link>
                 </div>
               </div>
@@ -163,7 +162,7 @@ export default function HomePage() {
                   href={`/class/${c.id}/quiz`}
                   className="flex min-h-[44px] items-center rounded-md border border-line px-4 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-ink hover:text-ink"
                 >
-                  Quiz
+                  {t('nav.quiz')}
                 </Link>
               </div>
             </div>
@@ -173,7 +172,7 @@ export default function HomePage() {
 
       <div className="mt-16 text-center">
         <Link href="/tutor" className="inline-block px-3 py-3 text-sm text-ink-faint hover:text-ink-soft">
-          Instructor dashboard
+          {t('home.instructor')}
         </Link>
       </div>
     </div>

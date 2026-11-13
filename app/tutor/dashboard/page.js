@@ -17,6 +17,7 @@ const TASK_SLIDES = slides.filter((s) => s.activity);
 import TutorLogoutButton from '../../../components/TutorLogoutButton';
 import ResetDataButton from '../../../components/ResetDataButton';
 import AutoRefresh from '../../../components/AutoRefresh';
+import { LangBadge, TranslateLink } from '../../../components/TutorBits';
 
 export const dynamic = 'force-dynamic';
 
@@ -36,6 +37,10 @@ export default async function TutorDashboardPage() {
     getAllWriting(),
     getAllActivities(),
   ]);
+
+  const langById = {};
+  for (const s of students) langById[s.id] = s.lang || 'en';
+  const jaCount = students.filter((s) => s.lang === 'ja').length;
 
   const answersBySlide = {};
   for (const a of allActivities) (answersBySlide[a.slideN] ||= []).push(a);
@@ -74,11 +79,39 @@ export default async function TutorDashboardPage() {
         </div>
       )}
 
+      <section className="mb-10 rounded-lg border border-line bg-card px-5 py-4" data-testid="export-box">
+        <h2 className="font-serif text-xl font-semibold text-ink">Export for grading</h2>
+        <p className="mt-1 text-sm text-ink-soft">
+          Download spreadsheets (CSV, opens in Excel). Japanese text is kept as written.
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <a
+            href="/api/tutor/export?type=grades"
+            data-testid="export-grades"
+            className="flex min-h-[44px] items-center rounded-md bg-ink px-4 text-sm font-medium text-white hover:opacity-90"
+          >
+            Grades summary (one row per student)
+          </a>
+          <a
+            href="/api/tutor/export?type=answers"
+            data-testid="export-answers"
+            className="flex min-h-[44px] items-center rounded-md border border-line px-4 text-sm font-medium text-ink-soft hover:border-ink hover:text-ink"
+          >
+            All written answers (one row per answer)
+          </a>
+        </div>
+      </section>
+
       <section className="mb-12">
         <h2 className="font-serif text-xl font-semibold text-ink">Roster &amp; Progress</h2>
         <p className="mt-1 text-sm text-ink-soft">
-          {students.length} student{students.length === 1 ? '' : 's'} registered. Cells show slides
-          viewed / quiz score.
+          {students.length} student{students.length === 1 ? '' : 's'} registered
+          {students.length > 0 && (
+            <span data-testid="lang-summary">
+              {' '}&middot; {students.length - jaCount} using English, {jaCount} using Japanese
+            </span>
+          )}
+          . Cells show slides viewed / quiz score. The EN / JA tag shows each student&rsquo;s interface language.
         </p>
 
         <div className="mt-4 overflow-x-auto rounded-lg border border-line">
@@ -103,7 +136,7 @@ export default async function TutorDashboardPage() {
               )}
               {students.map((s, i) => (
                 <tr key={s.id} className={i % 2 ? 'bg-card' : 'bg-paper/60'}>
-                  <td className={`sticky left-0 z-10 border-r border-t border-line px-3 py-2.5 font-medium text-ink sm:px-4 ${i % 2 ? 'bg-card' : 'bg-paper'}`}>{s.name}</td>
+                  <td className={`sticky left-0 z-10 border-r border-t border-line px-3 py-2.5 font-medium text-ink sm:px-4 ${i % 2 ? 'bg-card' : 'bg-paper'}`}>{s.name}<LangBadge lang={s.lang} /></td>
                   {CLASSES.map((c) => {
                     const prog = progressLookup[`${s.id}:${c.id}`];
                     const quiz = quizLookup[`${s.id}:${c.id}`];
@@ -159,7 +192,9 @@ export default async function TutorDashboardPage() {
                             {list.map((a) => (
                               <li key={a.studentId} className="text-sm">
                                 <span className="font-medium text-ink">{a.studentName}</span>
+                                <LangBadge lang={langById[a.studentId]} />
                                 <p className="whitespace-pre-wrap leading-relaxed text-ink-soft">{a.content}</p>
+                                <TranslateLink text={a.content} />
                               </li>
                             ))}
                           </ul>
@@ -189,12 +224,14 @@ export default async function TutorDashboardPage() {
                   {writingByClass[c.id].map((w) => (
                     <details key={`${w.studentId}-${w.classId}`} className="rounded-lg border border-line bg-card px-4 py-2.5">
                       <summary className="cursor-pointer text-sm font-medium text-ink">
-                        {w.studentName}{' '}
+                        {w.studentName}
+                        <LangBadge lang={langById[w.studentId]} />{' '}
                         <span className="font-normal text-ink-faint">&middot; {formatDate(w.updatedAt)}</span>
                       </summary>
                       <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-ink-soft">
                         {w.content}
                       </p>
+                      <TranslateLink text={w.content} />
                     </details>
                   ))}
                 </div>
@@ -224,6 +261,7 @@ export default async function TutorDashboardPage() {
                       </span>{' '}
                       <span className="text-ink-faint">&middot; {formatDate(m.createdAt)}</span>
                       <p className="text-ink-soft">{m.body}</p>
+                      <TranslateLink text={m.body} />
                     </div>
                   ))}
                 </div>

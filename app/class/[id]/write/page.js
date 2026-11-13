@@ -3,7 +3,8 @@
 import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { getClass } from '../../../../data/classes';
-import { WRITING_TASKS } from '../../../../data/writingTasks';
+import { writingTask } from '../../../../data/writingTasks';
+import { useLang } from '../../../../lib/LanguageProvider';
 import { useProgress } from '../../../../lib/ProgressProvider';
 
 const ACCENT_TEXT = {
@@ -17,7 +18,8 @@ const ACCENT_TEXT = {
 export default function ClassWritePage({ params }) {
   const classId = Number(params.id);
   const cls = getClass(classId);
-  const task = WRITING_TASKS[classId];
+  const { t, lang } = useLang();
+  const task = writingTask(classId, lang);
   const { auth, authReady } = useProgress();
 
   const [content, setContent] = useState('');
@@ -55,9 +57,9 @@ export default function ClassWritePage({ params }) {
   if (!cls || !task) {
     return (
       <div className="mx-auto max-w-xl px-5 py-20 text-center">
-        <p className="text-ink-soft">That class doesn&rsquo;t exist.</p>
+        <p className="text-ink-soft">{t('common.noClass')}</p>
         <Link href="/" className="mt-4 inline-block text-mark underline">
-          Back to course
+          {t('common.backCourse')}
         </Link>
       </div>
     );
@@ -69,9 +71,9 @@ export default function ClassWritePage({ params }) {
     <div className="mx-auto max-w-2xl px-4 pb-24 pt-6 sm:px-6 sm:pt-8">
       <div className="mb-6 flex items-center justify-between text-sm">
         <Link href={`/class/${classId}`} className="-my-2 inline-block py-2 pr-2 text-ink-faint hover:text-ink">
-          &larr; Back to slides
+          {t('common.backSlides')}
         </Link>
-        <span className={`font-medium ${ACCENT_TEXT[classId]}`}>Class {classId} Writing Task</span>
+        <span className={`font-medium ${ACCENT_TEXT[classId]}`}>{t('write.header', { n: classId })}</span>
       </div>
 
       <h1 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">{task.title}</h1>
@@ -79,12 +81,12 @@ export default function ClassWritePage({ params }) {
 
       {authReady && !auth.loggedIn ? (
         <div className="mt-8 rounded-lg border border-line bg-card px-5 py-6 text-center">
-          <p className="text-sm text-ink-soft">Log in to write and save your response.</p>
+          <p className="text-sm text-ink-soft">{t('write.login')}</p>
           <Link
             href={`/login?next=${encodeURIComponent(`/class/${classId}/write`)}`}
             className="mt-3 inline-block rounded-md bg-ink px-4 py-2 text-sm font-medium text-white hover:opacity-90"
           >
-            Log in
+            {t('header.login')}
           </Link>
         </div>
       ) : (
@@ -101,11 +103,11 @@ export default function ClassWritePage({ params }) {
             className="w-full rounded-lg border border-line bg-card px-4 py-3 text-[15px] leading-relaxed text-ink outline-none focus-visible:border-mark"
           />
           <div className="mt-2 flex items-center justify-between text-xs text-ink-faint">
-            <span>{words} words</span>
+            <span>{t('write.words', { n: words })}</span>
             <span>
-              {status === 'saving' && 'Saving\u2026'}
-              {status === 'saved' && 'Saved'}
-              {status === 'error' && <span className="text-mark">Couldn&rsquo;t save &mdash; try again</span>}
+              {status === 'saving' && t('write.saving')}
+              {status === 'saved' && t('write.saved')}
+              {status === 'error' && <span className="text-mark">{t('write.error')}</span>}
             </span>
           </div>
 
@@ -114,13 +116,13 @@ export default function ClassWritePage({ params }) {
             disabled={status === 'saving' || !content.trim()}
             className="mt-3 rounded-md bg-ink px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-40"
           >
-            Save response
+            {t('write.save')}
           </button>
 
           {showCheck && (
             <div className="mt-6 rounded-lg border border-line bg-paper px-5 py-4">
               <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
-                Before you move on, check
+                {t('write.checkHeading')}
               </p>
               <ul className="mt-2 space-y-1.5">
                 {task.selfCheck.map((c, i) => (

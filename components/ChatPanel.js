@@ -1,5 +1,7 @@
 'use client';
 
+import { useLang } from '../lib/LanguageProvider';
+
 import { useEffect, useRef, useState, useCallback } from 'react';
 
 function formatTime(iso) {
@@ -8,6 +10,7 @@ function formatTime(iso) {
 }
 
 export default function ChatPanel({ classId, myName, accentText }) {
+  const { t } = useLang();
   const [messages, setMessages] = useState([]);
   const [draft, setDraft] = useState('');
   const [sending, setSending] = useState(false);
@@ -71,7 +74,7 @@ export default function ChatPanel({ classId, myName, accentText }) {
       <div ref={listRef} className="flex-1 space-y-3 overflow-y-auto px-4 py-4 sm:px-5">
         {loaded && messages.length === 0 && (
           <p className="mt-8 text-center text-sm text-ink-faint">
-            No messages yet &mdash; ask the first question about this class.
+            {t('chat.empty')}
           </p>
         )}
         {messages.map((m) => {
@@ -80,7 +83,7 @@ export default function ChatPanel({ classId, myName, accentText }) {
           return (
             <div key={m.id} className={`flex flex-col ${isMe ? 'items-end' : 'items-start'}`}>
               <span className="mb-0.5 text-xs text-ink-faint">
-                {isTutor ? 'Instructor' : m.authorName} &middot; {formatTime(m.createdAt)}
+                {isTutor ? t('chat.instructor') : m.authorName} &middot; {formatTime(m.createdAt)}
               </span>
               <span
                 className={`max-w-[85%] rounded-2xl px-3.5 py-2 text-[14px] leading-snug ${
@@ -102,7 +105,7 @@ export default function ChatPanel({ classId, myName, accentText }) {
         <input
           value={draft}
           onChange={(e) => setDraft(e.target.value)}
-          placeholder="Ask a question about this class..."
+          placeholder={t('chat.placeholder')}
           maxLength={2000}
           className="flex-1 rounded-md border border-line bg-paper px-3 py-2 text-sm text-ink outline-none focus-visible:border-mark"
         />
@@ -111,7 +114,7 @@ export default function ChatPanel({ classId, myName, accentText }) {
           disabled={!draft.trim() || sending}
           className="rounded-md bg-ink px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-40"
         >
-          Send
+          {t('chat.send')}
         </button>
       </form>
     </div>

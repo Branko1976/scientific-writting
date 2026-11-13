@@ -132,6 +132,25 @@ Redeploy after adding these (Vercel will prompt you, or push any commit).
 That's it — share the `*.vercel.app` URL with your 15 students, and use
 `your-url.vercel.app/tutor` yourself.
 
+## English / Japanese
+
+Students can switch the interface between English and Japanese with the button in the header (remembered per
+browser). In Japanese mode the menus, login, quizzes, writing tasks and messages are in Japanese; the slides
+themselves stay in English, matching the lecture deck. Students may answer in either language.
+
+- Interface text: `lib/i18n.js`. Japanese quizzes: `data/quizzes.ja.json`. Japanese writing tasks: `data/writingTasks.js`.
+- If you edit `data/quizzes.json`, make the same change in `data/quizzes.ja.json` (same order of options).
+
+## Tutor dashboard extras
+
+- **Always English.** The tutor pages ignore the language switch.
+- **Language tags.** Each student has an EN / JA tag showing which interface they use.
+- **Translate to English.** Answers containing Japanese get a link that opens Google Translate in a new tab with the
+  answer filled in (the text is sent to Google only when you click).
+- **Export for grading.** Two CSV downloads: a grades summary (one row per student) and all written answers
+  (one row per answer). Both open in Excel with Japanese text intact.
+- **Reset.** One button, clicked twice. Export first — the reset cannot be undone.
+
 ## Companion textbook
 
 The home page shows a prominent banner linking to the free companion textbook at

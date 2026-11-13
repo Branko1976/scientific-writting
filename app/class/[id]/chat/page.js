@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { getClass } from '../../../../data/classes';
+import { getClass, classTitle } from '../../../../data/classes';
+import { useLang } from '../../../../lib/LanguageProvider';
 import { useProgress } from '../../../../lib/ProgressProvider';
 import ChatPanel from '../../../../components/ChatPanel';
 
@@ -17,13 +18,14 @@ export default function ClassChatPage({ params }) {
   const classId = Number(params.id);
   const cls = getClass(classId);
   const { auth, authReady } = useProgress();
+  const { t, lang } = useLang();
 
   if (!cls) {
     return (
       <div className="mx-auto max-w-xl px-5 py-20 text-center">
-        <p className="text-ink-soft">That class doesn&rsquo;t exist.</p>
+        <p className="text-ink-soft">{t('common.noClass')}</p>
         <Link href="/" className="mt-4 inline-block text-mark underline">
-          Back to course
+          {t('common.backCourse')}
         </Link>
       </div>
     );
@@ -33,24 +35,24 @@ export default function ClassChatPage({ params }) {
     <div className="mx-auto max-w-2xl px-4 pb-24 pt-6 sm:px-6 sm:pt-8">
       <div className="mb-6 flex items-center justify-between text-sm">
         <Link href={`/class/${classId}`} className="-my-2 inline-block py-2 pr-2 text-ink-faint hover:text-ink">
-          &larr; Back to slides
+          {t('common.backSlides')}
         </Link>
-        <span className={`font-medium ${ACCENT_TEXT[classId]}`}>Class {classId} Discussion</span>
+        <span className={`font-medium ${ACCENT_TEXT[classId]}`}>{t('chat.header', { n: classId })}</span>
       </div>
 
-      <h1 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">{cls.title}</h1>
+      <h1 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">{classTitle(cls, lang)}</h1>
       <p className="mt-1 text-sm text-ink-soft">
-        Questions here are visible to your classmates and your instructor.
+        {t('chat.sub')}
       </p>
 
       {authReady && !auth.loggedIn ? (
         <div className="mt-8 rounded-lg border border-line bg-card px-5 py-6 text-center">
-          <p className="text-sm text-ink-soft">Log in to join the discussion.</p>
+          <p className="text-sm text-ink-soft">{t('chat.login')}</p>
           <Link
             href={`/login?next=${encodeURIComponent(`/class/${classId}/chat`)}`}
             className="mt-3 inline-block rounded-md bg-ink px-4 py-2 text-sm font-medium text-white hover:opacity-90"
           >
-            Log in
+            {t('header.login')}
           </Link>
         </div>
       ) : authReady ? (
