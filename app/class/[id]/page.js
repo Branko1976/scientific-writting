@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import allSlides from '../../../data/slides.json';
+import { localizeSlide } from '../../../lib/slidesI18n';
 import { getClass, slideCount, classTitle } from '../../../data/classes';
 import { useLang } from '../../../lib/LanguageProvider';
 import { useProgress } from '../../../lib/ProgressProvider';
@@ -55,10 +56,11 @@ export default function ClassSlidesPage({ params }) {
     };
   }, [authReady, auth.loggedIn, classId]);
 
-  const slides = useMemo(
+  const baseSlides = useMemo(
     () => (cls ? allSlides.filter((s) => s.classId === classId) : []),
     [classId, cls]
   );
+  const slides = useMemo(() => baseSlides.map((sl) => localizeSlide(sl, lang)), [baseSlides, lang]);
   const total = slides.length;
 
   const [index, setIndex] = useState(0);

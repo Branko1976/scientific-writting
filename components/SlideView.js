@@ -44,7 +44,7 @@ function Table({ header, rows, classId }) {
         <thead>
           <tr className={ACCENT_BG_SOFT[classId]}>
             {header.map((h, i) => (
-              <th key={i} className="px-4 py-2.5 font-semibold text-ink">
+              <th key={i} className="min-w-[5.5em] px-3 py-2.5 font-semibold text-ink sm:px-4">
                 {h}
               </th>
             ))}
@@ -54,7 +54,7 @@ function Table({ header, rows, classId }) {
           {rows.map((row, ri) => (
             <tr key={ri} className={ri % 2 ? 'bg-card' : 'bg-paper/60'}>
               {row.map((cell, ci) => (
-                <td key={ci} className="border-t border-line px-4 py-2.5 align-top text-ink-soft">
+                <td key={ci} className="min-w-[5.5em] border-t border-line px-3 py-2.5 align-top text-ink-soft sm:px-4">
                   {cell}
                 </td>
               ))}
@@ -69,10 +69,12 @@ function Table({ header, rows, classId }) {
 // Quick Check / Answer slides: paragraphs are option text (up to 4), plus an
 // optional trailing instruction ("Vote with...") or explanation ("Correct answer: ...").
 function CheckOptions({ body, isAnswer }) {
-  const paras = body.filter((b) => b.role === 'paragraph').map((b) => b.text);
+  const blocks = body.filter((b) => b.role === 'paragraph');
+  const isFoot = (b) => b.foot ?? /^(Vote|Discuss|Decide)/i.test(b.text);
+  const paras = blocks.map((b) => b.text);
   const correctMatch = paras.find((p) => /^Correct answer:/i.test(p));
-  const options = paras.filter((p) => p !== correctMatch && !/^(Vote|Discuss|Decide)/i.test(p)).slice(0, 4);
-  const footNote = paras.find((p) => /^(Vote|Discuss|Decide)/i.test(p));
+  const options = blocks.filter((b) => b.text !== correctMatch && !isFoot(b)).map((b) => b.text).slice(0, 4);
+  const footNote = blocks.find((b) => isFoot(b))?.text;
   const correctLetter = correctMatch ? correctMatch.match(/Correct answer:\s*([A-D])/i)?.[1] : null;
 
   return (
@@ -175,7 +177,7 @@ export default function SlideView({ slide, classId }) {
     );
   }
 
-  const isCheck = slide.eyebrow === 'QUICK CHECK' || slide.eyebrow === 'ANSWER';
+  const isCheck = slide.isCheck ?? (slide.eyebrow === 'QUICK CHECK' || slide.eyebrow === 'ANSWER');
 
   return (
     <div className="px-6 py-10 sm:px-10 sm:py-12">

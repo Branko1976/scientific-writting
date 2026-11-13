@@ -135,10 +135,10 @@ That's it — share the `*.vercel.app` URL with your 15 students, and use
 ## English / Japanese
 
 Students can switch the interface between English and Japanese with the button in the header (remembered per
-browser). In Japanese mode the menus, login, quizzes, writing tasks and messages are in Japanese; the slides
-themselves stay in English, matching the lecture deck. Students may answer in either language.
+browser). In Japanese mode the menus, login, quizzes, writing tasks, messages and the slides are in Japanese.
+Example sentences and the English phrases being taught stay in English on purpose. Students may answer in either language.
 
-- Interface text: `lib/i18n.js`. Japanese quizzes: `data/quizzes.ja.json`. Japanese writing tasks: `data/writingTasks.js`.
+- Interface text: `lib/i18n.js`. Japanese slide text: `data/slides.ja.json` (English string → Japanese; a string with no entry is shown in English). Japanese quizzes: `data/quizzes.ja.json`. Japanese writing tasks: `data/writingTasks.js`.
 - If you edit `data/quizzes.json`, make the same change in `data/quizzes.ja.json` (same order of options).
 
 ## Tutor dashboard extras
