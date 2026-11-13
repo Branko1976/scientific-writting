@@ -266,7 +266,7 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "Clarity — one idea communicated without confusion"
+    "text": "Suspense — withholding the main finding until the end"
    },
    {
     "role": "paragraph",
@@ -274,7 +274,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Suspense — withholding the main finding until the end"
+    "text": "Clarity — one idea communicated without confusion"
    },
    {
     "role": "paragraph",
@@ -507,7 +507,7 @@
    },
    {
     "role": "paragraph",
-    "text": "A conference abstract"
+    "text": "A grant proposal"
    },
    {
     "role": "paragraph",
@@ -515,7 +515,7 @@
    },
    {
     "role": "paragraph",
-    "text": "A grant proposal"
+    "text": "A conference abstract"
    },
    {
     "role": "paragraph",
@@ -1196,11 +1196,11 @@
    },
    {
     "role": "paragraph",
-    "text": "Only after reading the full paper"
+    "text": "On its own, without reading the rest of the paper"
    },
    {
     "role": "paragraph",
-    "text": "On its own, without reading the rest of the paper"
+    "text": "Only after reading the full paper"
    },
    {
     "role": "paragraph",
@@ -1573,7 +1573,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Consider splitting it into separate sentences"
+    "text": "Move it to the abstract"
    },
    {
     "role": "paragraph",
@@ -1581,7 +1581,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Move it to the abstract"
+    "text": "Consider splitting it into separate sentences"
    },
    {
     "role": "paragraph",
@@ -1826,11 +1826,11 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "You want to sound more formal"
+    "text": "The actor performing the action is obvious or unimportant"
    },
    {
     "role": "paragraph",
-    "text": "The actor performing the action is obvious or unimportant"
+    "text": "You want to sound more formal"
    },
    {
     "role": "paragraph",
@@ -2048,11 +2048,11 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "“A total of 15 subjects participated.”"
+    "text": "“15 subjects were recruited.”"
    },
    {
     "role": "paragraph",
-    "text": "“15 subjects were recruited.”"
+    "text": "“A total of 15 subjects participated.”"
    },
    {
     "role": "paragraph",
@@ -2273,11 +2273,11 @@
    },
    {
     "role": "paragraph",
-    "text": "Adding a topic sentence and/or splitting it into focused paragraphs"
+    "text": "Converting every sentence to passive voice"
    },
    {
     "role": "paragraph",
-    "text": "Converting every sentence to passive voice"
+    "text": "Adding a topic sentence and/or splitting it into focused paragraphs"
    },
    {
     "role": "paragraph",
@@ -2863,7 +2863,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Synthesize prior findings to set up your specific gap"
+    "text": "Summarize your own results in advance"
    },
    {
     "role": "paragraph",
@@ -2871,7 +2871,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Summarize your own results in advance"
+    "text": "Synthesize prior findings to set up your specific gap"
    },
    {
     "role": "paragraph",
@@ -2925,11 +2925,11 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "Cite whichever source mentions the number, even a textbook"
+    "text": "Trace the number back to the primary study and cite that"
    },
    {
     "role": "paragraph",
-    "text": "Trace the number back to the primary study and cite that"
+    "text": "Cite whichever source mentions the number, even a textbook"
    },
    {
     "role": "paragraph",
@@ -3195,11 +3195,11 @@
    },
    {
     "role": "paragraph",
-    "text": "Map directly onto the gap identified just before it"
+    "text": "Be broad enough to allow multiple different studies"
    },
    {
     "role": "paragraph",
-    "text": "Be broad enough to allow multiple different studies"
+    "text": "Map directly onto the gap identified just before it"
    },
    {
     "role": "paragraph",
@@ -3680,11 +3680,11 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "“Mean age was 42.3 years (SD 8.1)”"
+    "text": "“This suggests that older patients respond better”"
    },
    {
     "role": "paragraph",
-    "text": "“This suggests that older patients respond better”"
+    "text": "“Mean age was 42.3 years (SD 8.1)”"
    },
    {
     "role": "paragraph",
@@ -3935,11 +3935,11 @@
    },
    {
     "role": "paragraph",
-    "text": "In whichever single format best serves the reader's need"
+    "text": "Only in a table, never a figure"
    },
    {
     "role": "paragraph",
-    "text": "Only in a table, never a figure"
+    "text": "In whichever single format best serves the reader's need"
    },
    {
     "role": "paragraph",
@@ -4261,11 +4261,11 @@
    },
    {
     "role": "paragraph",
-    "text": "“Because participants self-reported diet, recall bias may have affected accuracy.”"
+    "text": "“Limitations are discussed elsewhere.”"
    },
    {
     "role": "paragraph",
-    "text": "“Limitations are discussed elsewhere.”"
+    "text": "“Because participants self-reported diet, recall bias may have affected accuracy.”"
    },
    {
     "role": "paragraph",
@@ -4323,11 +4323,11 @@
    },
    {
     "role": "paragraph",
-    "text": "Repeat the abstract word for word"
+    "text": "State the finding's significance and plausible next steps"
    },
    {
     "role": "paragraph",
-    "text": "State the finding's significance and plausible next steps"
+    "text": "Repeat the abstract word for word"
    },
    {
     "role": "paragraph",
@@ -4485,7 +4485,7 @@
    },
    {
     "role": "paragraph",
-    "text": "A form of self-plagiarism that should be avoided or properly disclosed"
+    "text": "Required practice for consistency"
    },
    {
     "role": "paragraph",
@@ -4493,7 +4493,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Required practice for consistency"
+    "text": "A form of self-plagiarism that should be avoided or properly disclosed"
    },
    {
     "role": "paragraph",
@@ -4780,11 +4780,11 @@
    },
    {
     "role": "paragraph",
-    "text": "Structure and overall logical order"
+    "text": "Formatting the reference list"
    },
    {
     "role": "paragraph",
-    "text": "Formatting the reference list"
+    "text": "Structure and overall logical order"
    },
    {
     "role": "paragraph",
@@ -4979,11 +4979,11 @@
   "body": [
    {
     "role": "paragraph",
-    "text": "General praise, to keep morale up"
+    "text": "Specific, tied to a location in the text, and actionable"
    },
    {
     "role": "paragraph",
-    "text": "Specific, tied to a location in the text, and actionable"
+    "text": "General praise, to keep morale up"
    },
    {
     "role": "paragraph",
@@ -5259,7 +5259,7 @@
    },
    {
     "role": "paragraph",
-    "text": "State your disagreement with clear reasoning and remain respectful"
+    "text": "Withdraw the manuscript"
    },
    {
     "role": "paragraph",
@@ -5267,7 +5267,7 @@
    },
    {
     "role": "paragraph",
-    "text": "Withdraw the manuscript"
+    "text": "State your disagreement with clear reasoning and remain respectful"
    },
    {
     "role": "paragraph",
